@@ -82,7 +82,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    z-index: 1000;
     border-bottom: 1px solid var(--second-bg-color);
 }
 .logo {
@@ -809,7 +809,6 @@ p {
     margin-top: 200px;
     height: 760px;
     width: 50vw;
-    z-index: 200;
     animation: slideLeft 2s ease backwards;
 }
 
@@ -824,6 +823,7 @@ input[type=text]:focus {
 .contact-form, input {
     height: 90px;
     width: 520px;
+    z-index: 5;
     padding-left: 30px;
     font-size: 16px;
     background:white;
