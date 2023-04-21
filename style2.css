@@ -1,4 +1,4 @@
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -86,7 +86,7 @@ p {
     border-bottom: 1px solid var(--second-bg-color);
 }
 .logo {
-    font-size: clamp(1.3rem, calc(1.6rem + ((1vw - 0.325rem) * 0.4571)), 2.5rem);
+    font-size: clamp(1.3rem, calc(1.6rem + ((1vw - 0.325rem) * 0.4571)), 3rem);
     color: var(--text-color);
     font-weight: 900;
     cursor: default;
@@ -95,6 +95,19 @@ p {
 }
 .logo span {
     color: var(--main-color);
+}
+
+.navbar-parent {
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-right: -120px;
+}
+.navbar {
+    width: 600px;
+    height: 40px;
+
 }
 .navbar a {
     width: 70px;
@@ -125,6 +138,11 @@ p {
     width: 304px;
     height: auto;
     margin-top: 103px;
+}
+.btnConHeader {
+    width: 304px;
+    height: auto;
+
 }
 .button1 {
     background-image: var(--btnRadiant);
@@ -698,6 +716,246 @@ p {
     font-size: 2.4rem;
     color: var(--second-bg-color);
 }
+
+/****************CONTACT-PAGE*********************************/
+
+.contact-page {
+    width: 100%;
+    height: 160vh;
+    background-color: var(--bg-color);
+}
+
+.contact-me-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+.contact-page h1 {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: var(--h1);
+    text-align: center;
+    padding-top: 240px;
+    z-index: 100;
+    animation: slideLeft 2s ease backwards;
+    animation-delay: .9S;
+}
+
+.contact-svg {
+    margin-top: -180px;
+    text-align: center;
+    opacity: 60%;
+    animation: slideRight 1s ease forwards;
+}
+
+.contactme-content {
+    margin-right: 100px;
+    height: auto;
+    width: 50vw;
+    padding-left: 246px;
+    text-align: left;
+    animation: slideLeft 2s ease forwards;
+}
+.contactme-content hr{
+    margin-top: 200px;
+    width: 100px;
+    height: 3px;
+    background-color: var(--main-color);
+    border: none;
+    opacity: 100%;
+}
+.contactme-content h2 {
+    font-weight: 900;
+    color: var(--text-color);
+    font-size: var(--h2);
+    margin-bottom: 70px;
+}
+.contactme-content h5 {
+    font-weight: 400;
+    font-size: var(--h5);
+    color: var(--text-color);
+    opacity: 62%;
+    margin-bottom: 70px;
+}
+
+.mail-me h5{
+    font-size: var(--h5);
+    font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 0;
+}
+.mail-me p {
+    font-size: var(--p1);
+    font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 60px;
+}
+.mail-me img {
+    margin-bottom: 20px;
+}
+
+.me-svg {
+    width: 100%;
+    margin-top: 80px;
+    margin-left: -200px;
+    position:absolute;
+    text-align: right;
+    overflow: hidden;
+    animation: slideLeft 2s ease backwards;
+}
+
+.contactme-input {
+    margin-top: 200px;
+    height: 760px;
+    width: 50vw;
+    z-index: 200;
+    animation: slideLeft 2s ease backwards;
+}
+
+
+input[type=text]:focus {
+    background-color: var(--second-bg-color);
+    outline: none;
+    transition: .3s;
+    color: var(--main-color);
+  }
+
+.contact-form, input {
+    height: 90px;
+    width: 520px;
+    padding-left: 30px;
+    font-size: 16px;
+    background:white;
+
+}
+.contact-form, input[type=text] {
+    color: var(--text-color);
+}
+
+.contact-form, textarea {
+    padding-left: 30px;
+    padding-top: 30px ;
+    width: 520px;
+    height: 140px;
+    border-color: var(--main-color);
+    background: transparent;
+    line-height: 1.5;
+}
+.contact-form, textarea[type=text] {
+    color: var(--text-color);
+}
+
+textarea:focus {
+    background-color:#161616;
+    outline: none;
+    transition: .3s;
+    color: var(--text-color);
+}
+
+.contactme-input .btnCon {
+    margin-top: 400px;
+    margin-left: 240px;
+}
+
+
+.contactme-input .lineF {
+    margin-top: 100px;
+}
+.find-me {
+    margin-left: 140px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 450px;
+    height: 50px;
+}
+.contactme-input hr {
+    margin-left: 170px;
+    opacity:100%;
+}
+.find-me h5 {
+    font-size: var(--h5);
+    font-weight: 900;
+    color: var(--text-color);
+}
+
+.contact-footer {
+    margin-top: 160px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+
+/*************************************AboutMe Page********************/
+
+
+
+
+.aboutme-page {
+    padding: 150px 123px;
+    height: 100vh;
+    width: 100%;
+    background: var(--bg-color);
+    border: 1px solid red;
+}
+
+
+.aboutme-content1 {
+    text-align: left;
+    margin-bottom: 4rem;
+}
+.aboutme-content2 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.aboutme-content h2 {
+    font-weight: 900;
+ 
+}
+
+.aboutme-content h5{
+    color: var(--main-color);
+
+
+}
+.aboutme-page hr {
+    opacity: 100%;
+}
+.aboutme-page h2 {
+    color: var(--text-color);
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: var(--h2);
+}
+.aboutme-page p {
+    font-size: var(--p1);
+    color: var(--text-color);
+    font-weight: 700;
+    opacity: 32%;
+}
+.aboutme-text h4 {
+    font-size: var(--h4);
+    font-weight: 400;
+    color: var(--text-color);
+    opacity: 52%;
+}
+.aboutme-text h4 span {
+    color: var(--main-color);
+}
+.aboutme-text p {
+    font-size: var(--p1);
+    font-weight: 400;
+    color: var(--text-color);
+    opacity: 52%;
+
+}
+
 
 
 /*************************************Media Queries************************************/
