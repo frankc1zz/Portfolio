@@ -30,6 +30,7 @@
 --h4: clamp(2.8rem, calc(2.8rem + ((1vw - 0.325rem) * 0.8)), 3.5rem);
 --h5: clamp(1.8rem, calc(2.8rem + ((1vw - 0.325rem) * 0.8)), 2.5rem);
 --h6: clamp(1.6rem, calc(1.6rem + ((1vw - 0.325rem) * 0.4571)), 2rem);
+
 --p1: clamp(1rem, calc(2.8rem + ((1vw - 0.325rem) * 0.8)), 1.6rem);
 --p2:  clamp(1rem, calc(2.8rem + ((1vw - 0.325rem) * 0.8)), 1.5rem);
 }
@@ -956,41 +957,130 @@ textarea:focus {
 
 } */
 
-.line-about {
+.lineA {
     width: 100px;
     height: 3px;
     background-color: var(--main-color);
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 20px;
+    padding-left: 123px;
     border: none;
+    opacity: 100%;
     animation: slideLeft 1s ease backwards;
     animation-delay: .5S;
 }
 
 .AboutMe-Page {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
+    padding: 0 200px;
     background-color: var(--bg-color);
-    border: 1px solid red;
+    border: 1px solid green;
 }
 
 .AboutMe-Content {
-    width: 60vw;
+
+    width: 100%;
     height: auto;
     border: 1px solid white
 }
 .AboutMe-Page h2 {
-    color: var(--text-color);
+    color: var(--main-color);
     margin-bottom: 10px;
     font-weight: 900;
     font-size: var(--h2);
 }
 
+.AboutMe-Text {
+    width: 100%;
+    height: auto;
+}
 .AboutMe-Text h5 {
+    opacity: 32%;
+    font-weight: 700;
+}
+.about-svg {
+    margin-top: 80px;
+    text-align: center;
+    opacity: 50%;
+    overflow-x:hidden;   
+}
+.AboutMe-Body {
+    margin-top: -100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.AboutMe-Bodytext {
+    width: 50%;
+    height: auto;
+    border: 1px solid red;
+}
+.AboutMe-Bodytext h4 {
+    font-size: var(--h4);
+    font-weight: 900;
+    color: var(--text-color);
+    margin-top: 50px;
+}
+.AboutMe-Bodytext h4 span {
+    color: var(--main-color);
+}
+.AboutMe-Bodytext h5,p {
+    opacity: 52%;
+    margin-top: 20px;
+    font-weight: 400;
+    text-align: left
+}
+ 
+.AboutMe-Bodytext p {
+    font-size: var(--h6);
+}
+.line-about {
+    width: 450px;
+    height: 3px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: var(--main-color);
+    margin-top: 100px;
+    opacity: 100%;
 }
 
 
+.AboutMe-educ h4, h6, p {
+    margin-top: 10px;
+}
+.AboutMe-educ h4 {
+    color: var(--main-color);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.AboutMe-educ h6 {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: var(--h6);
+    padding-left: 50px;
+
+}
+
+.AboutMe-educ p {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: var(--h6);
+    opacity: 48%;
+    padding-left: 50px;
+}
+
+.AboutMe-Profile {
+    width: 50%;
+    height: 50vh;
+    border: 1px solid red;
+}
+.AboutMe-Profile img {
+    
+}
 
 
 /*************************************Media Queries************************************/
