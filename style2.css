@@ -1021,7 +1021,10 @@ textarea:focus {
     width: 30vw;
     padding-left: 100px;
     margin-left: 100px;
+    margin-top: -300px;
     opacity: 60%;
+
+
 }
 .Aboutme-svg {
     width: 100%;
