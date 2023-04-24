@@ -897,68 +897,6 @@ textarea:focus {
 /*************************************AboutMe Page********************/
 
 
-
-
-/* .aboutme-page {
-    padding: 150px 123px;
-    height: 100vh;
-    width: 100%;
-    background: var(--bg-color);
-    border: 1px solid red;
-}
-
-
-.aboutme-content1 {
-    text-align: left;
-    margin-bottom: 4rem;
-}
-.aboutme-content2 {
-    text-align: center;
-    margin-bottom: 4rem;
-}
-
-.aboutme-content h2 {
-    font-weight: 900;
- 
-}
-
-.aboutme-content h5{
-    color: var(--main-color);
-
-
-}
-.aboutme-page hr {
-    opacity: 100%;
-}
-.aboutme-page h2 {
-    color: var(--text-color);
-    margin-bottom: 10px;
-    font-weight: 900;
-    font-size: var(--h2);
-}
-.aboutme-page p {
-    font-size: var(--p1);
-    color: var(--text-color);
-    font-weight: 700;
-    opacity: 32%;
-}
-.aboutme-text h4 {
-    font-size: var(--h4);
-    font-weight: 400;
-    color: var(--text-color);
-    opacity: 52%;
-}
-.aboutme-text h4 span {
-    color: var(--main-color);
-}
-.aboutme-text p {
-    font-size: var(--p1);
-    font-weight: 400;
-    color: var(--text-color);
-    opacity: 52%;
-
-} */
-
 .lineA {
     width: 100px;
     height: 3px;
@@ -977,17 +915,17 @@ textarea:focus {
     height: 120vh;
     padding: 0 200px;
     background-color: var(--bg-color);
-    border: 1px solid green;
+
 }
 
 .AboutMe-Content {
 
     width: 100%;
     height: auto;
-    border: 1px solid white
+
 }
 .AboutMe-Page h2 {
-    color: var(--main-color);
+    color: var(--text-color);
     margin-bottom: 10px;
     font-weight: 900;
     font-size: var(--h2);
@@ -1019,7 +957,7 @@ textarea:focus {
 .AboutMe-Bodytext {
     width: 50%;
     height: auto;
-    border: 1px solid red;
+
 }
 .AboutMe-Bodytext h4 {
     font-size: var(--h4);
@@ -1078,13 +1016,143 @@ textarea:focus {
 .AboutMe-Profile {
     width: 50%;
     height: 50vh;
-    border: 1px solid red;
 }
 .AboutMe-Profile img {
-    
+    width: 30vw;
+    padding-left: 100px;
+    margin-left: 100px;
+    opacity: 60%;
+}
+.Aboutme-svg {
+    width: 100%;
+    margin-top: -100px;
+    margin-left: -200px;
+    position:absolute;
+    text-align: right;
+    overflow: hidden;
+    animation: slideLeft 2s ease backwards;
+}
+.line-VerticalAbout {
+    margin-top: 10px;
+    position: relative;
+    rotate:calc(90deg);
+    width: 121px;
+    height: 3px;
+    margin-left: 900px;
+    background-color: var(--main-color);
+    border: none;
+    opacity: 100%;
+}
+.AboutMe-Skills {
+    margin-top: 100px;
+    width: 100%;
+    height: 30vh;
+
+}
+.AboutMe-Skills h2{
+    font-weight: 900;
+    font-size: var(--h2);
+    color: var(--main-color);
+    text-align: center;
+}
+.SKILLS {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.SKILLS img {
+    margin-right: 20px;
+}
+.lineS {
+    position: absolute;
+    width: 750px;
+    height: 3px;
+    background-color: var(--main-color);
+    border: none;
+    opacity: 100%;
+    margin: 50px 0 0 550px;
+    padding-left: 200PX;
 }
 
+.Exp-content {
+    padding: 0 200px;
 
+}
+
+.AboutMe-Exp {
+    padding-top: 50px;
+}
+.Exp-content h2 {
+    color: var(--text-color);
+    font-weight: 900;
+    margin-top: -10px;
+}
+.Exp-lists {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 20vh;
+    margin-top: 50px;
+
+}
+.Exp-lists h5 {
+    font-weight: 700;
+    color: var(--main-color);
+}
+.Exp-lists h3 {
+    font-weight: 700;
+}
+.Exp-lists .list {
+    width: 500px;
+    height: auto;
+
+}
+
+.line-VerticalSocial {
+    margin-top: 200px;
+    position: relative;
+    rotate:calc(90deg);
+    width: 121px;
+    height: 3px;
+    margin-left: 900px;
+    background-color: var(--main-color);
+    border: none;
+    opacity: 100%;
+}
+.AboutMe-SocialMedia {
+    width: 100%;
+    height: 200px;
+    padding-top: 75px;
+    background-color: var(--second-bg-color);
+}
+
+.LineSkill {
+    width: 100px;
+    height: 3px;
+    background-color: var(--main-color);
+    margin-left: 200PX;
+    margin-bottom: 20px;
+    padding-left: 123px;
+    border: none;
+    opacity: 100%;
+    animation: slideLeft 1s ease backwards;
+    animation-delay: .5S;
+
+}
+
+.AboutMe-SocialM {
+    margin-left: 200px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 450px;
+    height: 50px;
+
+}
+.AboutMe-SocialM h5 {
+    font-weight: 700;
+
+}
 /*************************************Media Queries************************************/
 
 @media screen and (max-width: 1200px) {
