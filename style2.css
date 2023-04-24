@@ -831,7 +831,7 @@ input[type=text]:focus {
 
 }
 .contact-form, input[type=text] {
-    color: var(--text-color);
+    color: var(--bg-color);
 }
 
 .contact-form, textarea {
@@ -842,6 +842,7 @@ input[type=text]:focus {
     border-color: var(--main-color);
     background: transparent;
     line-height: 1.5;
+    margin-bottom: 10px;
 }
 .contact-form, textarea[type=text] {
     color: var(--text-color);
@@ -855,9 +856,10 @@ textarea:focus {
 }
 
 .contactme-input .btnCon {
-    margin-top: 400px;
-    margin-left: 240px;
+    margin-top: 382px;
+    margin-left: 200px;
 }
+
 
 
 .contactme-input .lineF {

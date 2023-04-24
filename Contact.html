@@ -65,17 +65,20 @@
                     
             </div>
             <div class="contactme-input">
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" aria-label="default input example">
+                <form class="contact-form" action="https://formsubmit.co/545751de26b1ea4121e43c26aa50ea5b" method="POST">
+                    <input type="text" name="name" required placeholder="Your Name" aria-label="default input example">
                     <br><br>
-                    <input type="text" placeholder="Your Email" aria-label="default input example">
+                    <input type="text" name="email" required placeholder="Your Email" aria-label="default input example">
                     <br><br>
-                    <input type="text" placeholder="Your Phone" aria-label="default input example">
+                    <input type="text" name="phone" required placeholder="Your Phone" aria-label="default input example">
                     <br><br>
-                    <textarea type="text" rows="5" cols="80" placeholder="Your message"></textarea>
+                    <textarea type="text" name="msg"  rows="5" cols="80" required placeholder="Your message"></textarea>
                     </textarea>
+                    <button class="buttonBox button1" type="submit">Submit</button>
                 </form>
-                <div class="btnCon"><button class="buttonBox button2">Download CV</button><button class="buttonBox button1" type="submit">Submit</button></div>
+
+                <div class="btnCon"><button class="buttonBox button2">Download CV</button></div>
+
                 <hr class="lineF">
                 <div class="find-me">
                     <h5>Find me on:</h5>
