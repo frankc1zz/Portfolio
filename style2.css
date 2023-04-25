@@ -452,6 +452,7 @@ p {
     font-size: var(--p2);
     font-weight: 400;
     color: var(--text-color);
+    text-align: center;
 }
 .services-box-container .bx {
     padding-top: 3rem;
@@ -1302,12 +1303,17 @@ hr.line-Vertical3 {
         margin: 3rem;
     }
     #menu-icon {
-        display: block;
+        display: flex;
+
     }
     #menu-icon:hover {
         color: var(--main-color);
         box-shadow: 0 .5rem 1rem var(--main-color);
     }
+.btnConHeader {
+    margin-left: -500px;
+}
+    
     .graphicsvg {
         display: none;
     }
@@ -2113,7 +2119,22 @@ hr.line-Vertical3 {
 }
 
 @media screen and (max-width: 520px) {
+    #menu-icon {
+        display: block;
 
+    }
+
+
+    #menu-icon:hover {
+        color: var(--main-color);
+        box-shadow: 0 .5rem 1rem var(--main-color);
+    }
+
+
+
+    .btnConHeader {
+        display: none;
+    }
     .home-content h1 {
         animation: none;
     }
@@ -2198,6 +2219,21 @@ hr.line-Vertical3 {
 }
 
 
+@media screen and (max-width:375px) {
+    #menu-icon {
+        display: block;
+    }
+
+
+    #menu-icon:hover {
+        color: var(--main-color);
+        box-shadow: 0 .5rem 1rem var(--main-color);
+    }
+    
+    .btnConHeader {
+        display: none;
+    }
+}
 
 
 
