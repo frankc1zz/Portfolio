@@ -78,6 +78,7 @@ p {
     top: 0;
     left: 0;
     width: 100%;
+    height: 9rem;
     padding: 5rem 9%;
     background: var(--bg-color);
     display: flex;
@@ -85,6 +86,11 @@ p {
     align-items: center;
     z-index: 100;
     border-bottom: 1px solid var(--second-bg-color);
+}
+.logo-Icon {
+    display: none;
+    cursor: default;
+    animation: slideRight 2s ease forwards;
 }
 .logo {
     font-size: clamp(1.3rem, calc(1.6rem + ((1vw - 0.325rem) * 0.4571)), 3rem);
@@ -815,7 +821,7 @@ p {
     margin-top: 200px;
     height: 760px;
     width: 50vw;
-    z-index: 200;
+    z-index: 3;
     animation: slideLeft 2s ease backwards;
 }
 
@@ -939,13 +945,15 @@ textarea:focus {
 .AboutMe-Text {
     width: 100%;
     height: auto;
+
 }
 .AboutMe-Text h5 {
     opacity: 32%;
     font-weight: 700;
 }
 .AboutMe-svg {
-    margin-top: 80px;
+    margin-top: -900px;
+    margin-left: -500px;
     text-align: center;
     opacity: 50%;
     overflow-x:hidden;   
@@ -968,7 +976,7 @@ textarea:focus {
     font-size: var(--h4);
     font-weight: 900;
     color: var(--text-color);
-    margin-top: 50px;
+    margin-top: 150px;
 }
 .AboutMe-Bodytext h4 span {
     color: var(--main-color);
@@ -1026,18 +1034,19 @@ textarea:focus {
     width: 30vw;
     padding-left: 100px;
     margin-left: 100px;
-    margin-top: -300px;
+    margin-top: -150px;
     opacity: 60%;
 
 
 }
-.Aboutme-svg {
+.ME-about-svg {
     width: 100%;
-    margin-top: -100px;
+    margin-top: 250px;
     margin-left: -200px;
     position:absolute;
     text-align: right;
-    overflow: hidden;
+    z-index: 4;
+    overflow-x: hidden;
     animation: slideLeft 2s ease backwards;
 }
 .line-VerticalAbout {
@@ -1047,6 +1056,7 @@ textarea:focus {
     width: 121px;
     height: 3px;
     margin-left: 900px;
+    margin-top: 400px;
     background-color: var(--main-color);
     border: none;
     opacity: 100%;
@@ -1109,6 +1119,7 @@ textarea:focus {
 }
 .Exp-lists h3 {
     font-weight: 700;
+    opacity: 62%;
 }
 .Exp-lists .list {
     width: 500px;
@@ -1230,7 +1241,10 @@ textarea:focus {
         padding: 2rem 3%;
 
     }
-    .navbar {
+    .navbar a {
+        margin-left: 60px;
+    }
+    /* .navbar {
         padding: 1rem 3%;
         background: var(--bg-color);
         border-top: .1rem solid var(--main-color);
@@ -1239,6 +1253,8 @@ textarea:focus {
     }
     .navbar.active {
         display: block;
+        height: auto;
+        margin-top: 200px;
     }
 
     .navbar a {
@@ -1246,20 +1262,25 @@ textarea:focus {
         font-size: 2rem;
         margin: 3rem;
     }
+
+    .bx-menu {
+        margin-left: 600px;
+
+    }
     #menu-icon {
-        display: flex;
+        display: block;
 
     }
     #menu-icon:hover {
         color: var(--main-color);
         box-shadow: 0 .5rem 1rem var(--main-color);
-    }
-    .btnConHeader {
+    } */
+
+    /* .btnConHeader {
         display: none;
-    }
+    } */
 
     .home {
-        border: 1px solid red;
         height: 90vh;
         padding: 0 123px;
 
@@ -1275,7 +1296,7 @@ textarea:focus {
     }
     .home-content .btnCon {
         margin-top: 100px;
-        margin-left: 500px;
+        margin-left: 450px;
     }
     .home-content h3 {
         font-size: 5rem;
@@ -1309,13 +1330,22 @@ textarea:focus {
     }
 
     .home-content2 {
-        border: 1px solid wheat;
-        margin-top: 100px;
+
+        margin-top: 200px;
         width: 100vw;
     }
+    .home-content2 .future {
+        margin-top: -400px;
+    }
+    .home-content2 .product {
+        margin-top: -200px;
+    }
+    .home-content2 .creative {
+        margin-top: 100px;
+    }
     .home-content2 .contentbox {
-        width: 252px;
-        height: 293px;
+        width: 222px;
+        height: 300px;
     }
     .contentbox-header {
         padding-top: -50px;
@@ -1326,26 +1356,80 @@ textarea:focus {
     }
 
     .line-Vertical1 {
-        margin-left: 462px;
+        margin-left: 452px;
         margin-top: 200px;
     }
-
+.services {
+    height: 100vh;
+}
+    .services-box {
+        width: 100%;
+    }
+    .services-box-container {
+        width: 200px;
+        height: 300px
+    }
+    .services-line-horizontal {
+        margin-left: 100px;
+    }
     
+    .line-Vertical2 {
+        margin-left: 452px;
+        margin-top: -50px;
+    }
+
+    .works {
+        height: 140vh;
+    }
     .works-container {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
     .works-box {
-        height: 400px;
-        width: 500px;
+        height: 250px;
+        width: 300px;
     }
 
-
+    .line-Vertical {
+        margin-left: 452px;
+    }
     .about {
         padding: 0 123px;
     }
+    .about-image img {
+        width: 280px;
+        height: 290px;
+    }
+    .about-content  {
+        width: 400px;
+
+    }
+    .about-content .about-body  {
+        font-size:  2rem;
+    }
+    .about-content .about-body2  {
+        font-size:  2rem;
+    }
+
+    .line-Vertical3 {
+        margin-left: 452px;
+    }
+
+    .contact {
+        height: 25vh;
+    }
+    .footer-line h3{
+        font-size: 4rem;
+    }
 }
 
-
+@media screen and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+    .logo-Icon {
+        display: block;
+    }
+}
 
 
 
