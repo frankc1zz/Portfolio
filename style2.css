@@ -132,7 +132,7 @@ p {
 }
 
 #menu-icon {
-    font-size: 4.6rem;
+    font-size: 4rem;
     color: var(--text-color);
     display: none;
 }
@@ -149,7 +149,9 @@ p {
 .btnConHeader {
     width: 304px;
     height: auto;
-
+}
+.btnConHeaderHidden {
+    display: none;
 }
 .button1 {
     background-image: var(--btnRadiant);
@@ -1145,6 +1147,11 @@ textarea:focus {
     background-color: var(--second-bg-color);
 }
 
+.download-CV {
+
+margin-left: 50px;
+
+}
 .LineSkill {
     width: 100px;
     height: 3px;
@@ -1166,7 +1173,6 @@ textarea:focus {
     align-items: center;
     width: 450px;
     height: 50px;
-
 }
 .AboutMe-SocialM h5 {
     font-weight: 700;
@@ -1428,8 +1434,209 @@ textarea:focus {
     }
     .logo-Icon {
         display: block;
+        margin-top: 10px;
     }
+
+    .navbar {
+        position: fixed;
+        width: 25%;
+        margin-left: 550px;
+        top: -3rem;
+        left: 18px;
+        padding: 25px 0;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid var(--main-color);
+        box-shadow: 0 .5rem 1rem var(--main-color);
+        display: none;
+    }
+    .navbar.active {
+        display: block;
+        height: auto;
+        margin-top: 120px;
+    }
+
+    .navbar a {
+        text-align: center;
+        display:block;
+        font-size: 2rem;
+        margin: 3rem;
+    }
+
+    .bx-menu {
+        margin-left: 500px;
+
+    }
+    #menu-icon {
+        display: block;
+
+    }
+    #menu-icon:hover {
+        color: var(--main-color);
+        box-shadow: 0 .5rem 1rem var(--main-color);
+    } 
+
+    .btnConHeader {
+        display: none;
+    }
+    .btnConHeaderHidden {
+        display: block;
+        margin-left: -29px;
+
+    }
+
+
+    .home { 
+        background: rgb(0,0,0);
+        background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,78,3,1) 100%, rgba(0,135,6,1) 100%, rgba(0,169,7,1) 100%, rgba(0,204,9,1) 100%, rgba(0,219,10,1) 100%, rgba(0,255,12,1) 100%);
+
+        padding:0 50px;
+        height: 130vh;
+    }
+    .home-content {
+        text-align: center;
+        height: 450px;
+        padding-top: 50px;
+    }
+    .home-content h3 {
+        font-size: 6rem;
+    }
+    .home-content h1 {
+        font-size: 8rem;
+    }
+    .home-content h5 {
+        font-size: 2rem;
+    }
+    .home-content .btnCon {
+        margin-top: 50px;
+        margin-left: 190px;
+    }
+
+    .home2 {
+        height: 100vh;
+        width: 100%;
+        padding: 0;
+        margin-top: 600px;
+        background-color: var(--bg-color);
+    }
+    .home-content2 {
+        top: 30px;
+        height: 50vh; 
+        margin-top: -100px;
+    }
+    
+    .contentbox {
+        align-content: center;
+        left: 0;
+        width: 302px;
+        height: 347px;
+    }
+    
+    .home-content2 .future {
+        margin-top: 0;
+    }
+    .home-content2 .product{
+        margin-top: 0;
+    }
+    .home-content2 .creative {
+        margin-top: 0;
+    
+    }
+    
+    
+    .contentbox svg {
+        margin-top: 28px;
+    
+    }
+    
+    .contentbox-header {
+        margin-top: 40px;
+        font-size: var(--h6);
+
+    
+    }
+    .contentbox-bodytext {
+        font-size: var(--p2);
+        margin-top: 20px;
+    }
+
+    .line-Vertical1 {
+        margin-left: 350px;
+        margin-top: 50px;
+        width: 75PX;
+    }
+
+    .services {
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+        padding-top: 60px;
+
+    
+    }
+    
+    .services-content h2 {
+        color: var(--text-color);
+        margin-bottom: 1.6rem;
+        font-weight: 900;
+    }
+    .services-content h5 {
+        font-size: var(--h6);
+
+    }
+    
+    
+    .services-box {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 310px;
+        margin-top: 50px;
+        z-index:3;
+        border: 1px solid red;
+    }
+    .services-box-container {
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        padding-right: 10px;
+        border: 1px solid red;
+    }
+    
+    .services-box-container h5 {
+        font-size: var(--h6);
+        margin-bottom: 1.6rem;
+        margin-top: 2rem;
+    }
+    .services-box-container p {
+        text-align: center;
+    }
+    .services-box-container .bx {
+        padding-top: 3rem;
+        font-size: 5rem;
+    }
+       
+    
+    .services-line-horizontal {
+        margin: 30px 0 0 130px;
+        width: 90px;
+        height: 3px;
+        background-color: var(--main-color);
+        border: none;
+    }
+    
+    .line-Vertical2 {
+        margin-top: 500px;
+    }
+
 }
+
+
+
+
+
+
 
 
 
