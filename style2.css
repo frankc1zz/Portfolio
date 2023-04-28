@@ -15,7 +15,7 @@
     --main-color: #54FF04;
     --text-color: #ffffff;
 
-    /***************************Buttons**************************/
+    /***************************Buttons******************/
 --btnW: 142px;
 --btnH: 42px;
 --btnFontz:16px;
@@ -23,7 +23,9 @@
 --btnColor: #54FF04;
 --btnRadiant: linear-gradient(var(--main-color), var(--bg-color));
 
- /***************************font-size**************************/
+
+
+ /**************************font-size*******************/
 --h1: clamp(4rem, calc(4rem + ((1vw - 0.325rem) * 2.8571)), 6.5rem);
 --h2: clamp(3rem, calc(3rem + ((1vw - 0.325rem) * 2.8571)), 5.5rem);
 --h3: clamp(3.5rem, calc(3rem + ((1vw - 0.325rem) * 2.8571)), 4.5rem);
@@ -1637,7 +1639,7 @@ margin-left: 50px;
         margin-top: -100px;
         height: auto;
         z-index: 18;
-        background-color: #54FF04;
+
 
     }
 
