@@ -1178,8 +1178,11 @@ margin-left: 50px;
 }
 .AboutMe-SocialM h5 {
     font-weight: 700;
-
 }
+
+/* @media   {
+    
+} */
 /*************************************Media Queries************************************/
 
 @media screen and (max-width: 1280px) {
@@ -1437,6 +1440,7 @@ margin-left: 50px;
     .logo-Icon {
         display: block;
         margin-top: 10px;
+        margin-left: 10px;
     }
 
     .navbar {
@@ -1491,7 +1495,6 @@ margin-left: 50px;
     .home { 
         background: rgb(0,0,0);
         background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,78,3,1) 100%, rgba(0,135,6,1) 100%, rgba(0,169,7,1) 100%, rgba(0,204,9,1) 100%, rgba(0,219,10,1) 100%, rgba(0,255,12,1) 100%);
-
         padding:0 50px;
         height: 130vh;
     }
@@ -1568,7 +1571,7 @@ margin-left: 50px;
         width: 75PX;
     }
 
-    .services {
+    .services { 
         height: 120vh;
         width: 100%;
         align-items: center;
@@ -1629,44 +1632,34 @@ margin-left: 50px;
     }
     
     .line-Vertical2 {
-        margin-top: -100px;
+
         margin-left: 350px;
         width: 75px;
         z-index: 19;
     }
 
     .works {
-        margin-top: -100px;
+        padding-top: 50px;
         height: auto;
         z-index: 18;
 
-
     }
-
-    .works-content h2 {
-
-    }
-    
     .works-content h5{
         font-size: var(--h6);
-    
     }
     .works-container {
         grid-template-columns: repeat(1,1fr);
     }
-
     .works-box {
         height: 400px;
         width: 500px;
         margin-bottom: 50px;
     }
-
     .line-Vertical {
         margin-left: 350px;
         margin-top: 100px;
         width: 75px;
     }
-
     .about {
         margin-bottom: -40px;
         padding: 0 100px;
@@ -1679,7 +1672,6 @@ margin-left: 50px;
     .about-content  {
         width: 400px;
         margin-top: 100px;
-
     }
     .about-content h2 {
         margin-top: 20px;
@@ -1697,13 +1689,11 @@ margin-left: 50px;
     .btnConAbout button {
         margin-top: -30px;
     }
-
     .line-Vertical3 {
         margin-left: 350px;
         margin-top: 40px;
         width: 75px;
     }
-
     .contact {
         height: 30vh;
 
@@ -1714,8 +1704,6 @@ margin-left: 50px;
     .social-medialinks .bx {
         margin-top: -40px;
     }
-
-
     .footer-line h3{
         font-size: 3rem;
         margin-top: -40px;
@@ -1732,7 +1720,175 @@ margin-left: 50px;
 }
 
 
+@media screen and (max-width: 520px) {
+    
+    .navbar {
+        margin-left: 310px;
 
+    }
+    .navbar a {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .bx-menu {
+        margin-left: 120px;
+    }
+    .home {
+        height: 90vh;
+        margin-top: 100px;
+        padding: 0 50px;
+
+    }
+    .home-content {
+        text-align: center;
+        width: 100%;
+        height: 450px;
+        padding-top: 50px;
+    }
+    .home-content h3 {
+        font-size: 5rem;
+    }
+    .home-content h1 {
+        font-size: 6rem;
+    }
+    .home-content h5 {
+        font-size: 1.6rem;
+    }
+
+
+    .home-content .btnCon {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .btnConHeaderHidden {
+        margin-left: -38px;
+
+    }
+    .home-content2 svg {
+        display: block;
+        margin-bottom: -30px;
+    }
+
+ 
+    .home2 {
+        height: auto;
+        margin-top: 600px;
+    }
+    .home-content2 {
+        margin-top: 50px;
+        width: 100vw;
+        height: auto;
+
+    }
+
+    .contentbox {
+        left: 0;
+        width: 302px;
+        height: 347px;
+        padding: 20px;
+        animation: none;
+    }
+    .home-content2 .future {
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .home-content2 .product{
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+    .home-content2 .creative {
+        margin-top: 0;
+        margin-left: 5px;
+    
+    }
+
+    .line-Vertical1 {
+        margin-left: 220px;
+        margin-top: 100px;
+    }
+
+    .services {
+        height: auto;
+    }
+    .services-box {
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        margin-left: 150px;
+        width: 240px;
+        height: auto;
+        margin-bottom: 60px;
+    }
+    .line-Vertical2 {
+        margin-left: 220px;
+        width: 75px;
+        z-index: 19;
+    }
+
+    .works {
+        padding-left: 70px;
+        height: auto;
+    }
+    .works-box {
+        height: 300px;
+        width: 400px;
+        margin-bottom: 50px;
+    }
+
+
+
+    .line-Vertical {
+        margin-left: 220px;
+        margin-top: 100px;
+        width: 75px;
+    }
+
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: -40px;
+        padding: 100px 100px 100px 50px;
+        height: auto;
+        border: 1px solid red;
+
+    }
+    .about-image img {
+        width: 280px;
+        height: 290px;
+        border: 1px solid brown;
+    }
+    .about-content  {
+        width: 100% ;
+        margin-top: 100px;
+        text-align: center;
+        border: 1px solid green;
+    }
+    .about-content h2 {
+        margin-top: 20px;
+        font-size: var(--h2);
+    }
+    .about-content h5 {
+        font-size: var(--h5);
+        margin-top: -30px;
+    }
+    .about-content .about-body  {
+        font-size:  2rem;
+        text-align: center;
+    }
+    .about-content .about-body2  {
+        font-size:  2rem;
+        text-align: center;
+    }
+    .btnConAbout button {
+        margin-top: -30px;
+        margin-left: 100px;
+    }
+
+}
 
 
 
