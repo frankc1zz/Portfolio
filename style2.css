@@ -1567,12 +1567,13 @@ margin-left: 50px;
     }
 
     .services {
-        height: 100vh;
+        height: 120vh;
         width: 100%;
         align-items: center;
         padding-top: 60px;
-
-    
+        padding-left: 0;
+        padding-right: 0;
+        z-index: 7;
     }
     
     .services-content h2 {
@@ -1594,14 +1595,13 @@ margin-left: 50px;
         height: 310px;
         margin-top: 50px;
         z-index:3;
-        border: 1px solid red;
     }
     .services-box-container {
         text-align: center;
-        width: 300px;
+        width: 230px;
         height: 300px;
         padding-right: 10px;
-        border: 1px solid red;
+        margin-bottom: 50px;
     }
     
     .services-box-container h5 {
@@ -1627,9 +1627,106 @@ margin-left: 50px;
     }
     
     .line-Vertical2 {
-        margin-top: 500px;
+        margin-top: -100px;
+        margin-left: 350px;
+        width: 75px;
+        z-index: 19;
     }
 
+    .works {
+        margin-top: -100px;
+        height: auto;
+        z-index: 18;
+        background-color: #54FF04;
+
+    }
+
+    .works-content h2 {
+
+    }
+    
+    .works-content h5{
+        font-size: var(--h6);
+    
+    }
+    .works-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .works-box {
+        height: 400px;
+        width: 500px;
+        margin-bottom: 50px;
+    }
+
+    .line-Vertical {
+        margin-left: 350px;
+        margin-top: 100px;
+        width: 75px;
+    }
+
+    .about {
+        margin-bottom: -40px;
+        padding: 0 100px;
+        height: 100vh;
+    }
+    .about-image img {
+        width: 280px;
+        height: 290px;
+    }
+    .about-content  {
+        width: 400px;
+        margin-top: 100px;
+
+    }
+    .about-content h2 {
+        margin-top: 20px;
+    }
+    .about-content h5 {
+        font-size: var(--h6);
+        margin-top: -30px;
+    }
+    .about-content .about-body  {
+        font-size:  1.6rem;
+    }
+    .about-content .about-body2  {
+        font-size:  1.6rem;
+    }
+    .btnConAbout button {
+        margin-top: -30px;
+    }
+
+    .line-Vertical3 {
+        margin-left: 350px;
+        margin-top: 40px;
+        width: 75px;
+    }
+
+    .contact {
+        height: 30vh;
+
+    }
+    .contact-content button {
+        margin-top: -40px;
+    }
+    .social-medialinks .bx {
+        margin-top: -40px;
+    }
+
+
+    .footer-line h3{
+        font-size: 3rem;
+        margin-top: -40px;
+    }
+    .footer {
+        height: 15vh;
+    }
+    .footer p { 
+        font-size: 1.4rem;
+    }
+    .footer-iconTop a i{
+        font-size: 1.6rem;
+    }
 }
 
 
