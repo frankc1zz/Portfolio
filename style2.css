@@ -2057,30 +2057,38 @@ margin-left: 50px;
     }
 
     .home2 {
-        border: 1px solid red;
         margin-top: 300px;
     }
-    .home-content2 {
-        border: 1px solid red;
+    .home-content2 svg {
+        margin-top: 10px;
     }
     .home-content2 .contentbox {
-        width: 200px;
-        height: 270px;
+        width: 180px;
+        height: 240px;
     }
-    .home-content2 
+    .home-content2 .contentbox-header {
+        font-size: 1.4rem;
+    }
+    .home-content2 .contentbox-bodytext {
+        font-size: 1.1rem;
+    }
+    .line-Vertical1 {
+        margin-left: 125px;
+    }
+    .services-box {
+        margin-left: 45px;
+    }
+    .line-Vertical2 {
+        margin-left: 125px;
+    }
     .works {
-        border: 1px solid orange;
         padding-left: 20px;
         padding-right: 20px;
     }
-
     .works-content {
-        border: 1px solid red;
         width: 280px;
     }
-
     .works-container {
-        border: 1px solid red;
         width: 200px;
         margin-left: 40px;
     }
@@ -2089,6 +2097,83 @@ margin-left: 50px;
         height: 200px;
         margin-bottom: 10px;
     }
+    .line-Vertical {
+        margin-left: 125px;
+    }
+    .about-image {
+        width: 210px;
+        height: 225px;
+        margin-left: 40px;
+    }
+    .about-image img{
+        width: 200px;
+        height: 220px;
+        margin: 0;
+        padding: 0;
+    }
+    .about-content {
+        width: 250px;
+        height: 90vh;
+    }
+    .about-content h2 {
+        font-size: var(--h4);
+    }
+    .about-content h5 {
+        font-size: var(--h6);
+    }
+    .about-content .about-body {
+        font-size: 1.6rem;
+    }
+    .about-content .about-body2 {
+        font-size: 1.6rem;
+    }
+    .btnConAbout {
+        margin-top: -50px;
+        margin-left: -15px;
+    }
+    .line-Vertical3 {
+        margin-left: 125px;
+    }
+    .contact {
+        height: 60vh;
+        padding-top: 150px;
+    }
+    .contact-content {
+        margin-top: -70px;
+        flex-direction: column;
+    }
+    .social-medialinks {
+        width: 80px;
+  
+        height: auto;
+    }
+    .social-medialinks .bx {
+        font-size: 2.6rem;
+        margin-top: 30px;
+    }
+    .footer-line h3 {
+        font-size: 2.6rem;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .contact-content button {
+        margin-top: 30px;
+    }
+    .footer {
+        height: 5vh;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer p {
+        margin-top: -10px;
+    }
+    .footer-iconTop {
+        margin-top: -10px;
+    }
+    .footer-iconTop a i {
+        font-size: 1rem;
+    }
+
 }
 
 
