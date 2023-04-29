@@ -2040,7 +2040,16 @@ margin-left: 50px;
     }
 
     .bx-menu {
-        margin-left: -50px;
+        margin-left: 90px;
+    }
+    .navbar {
+        margin-left: 110px;
+    }
+    .navbar a {
+        font-size: 1.4rem;
+    }
+    .btnConHeaderHidden {
+        margin-left: -5px;
     }
 
     .home-content h3 {
