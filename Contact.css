@@ -413,3 +413,153 @@ textarea:focus {
     font-size: 1.6rem;
 }
 
+
+
+/**********************************Media Queries********************************************/
+
+@media screen and (max-width: 1004px) {
+    svg {
+        display: none;
+    }
+
+    .contact-page {
+        margin: 0 50px;
+    }
+    .contact-page h1 {
+        margin-top: -100px;
+    }
+    .contactme-content {
+        margin-top: 200px;
+    }
+    .contactme-content hr {
+        margin-top: 50px;
+        margin-left: -200px;
+    }
+
+
+    .contactme-content h2 {
+        margin-left: -200px;
+    }
+    .contactme-content h5 {
+        margin-left: -200px;
+    }
+
+    .contact-form, input {
+        height: 90px;
+        width: 420px;
+        padding-left: 30px;
+        font-size: 16px;
+    }
+    .contactme-input .btnCon {
+        margin-top: 432px;
+        margin-left: 200px;
+    }
+    .mail-me {
+        margin-left: -200px;
+    }
+
+    .contactme-input hr {
+        margin-left: 70px;
+        opacity:100%;
+    }
+    .find-me {
+        margin-left: 50px;
+    }
+    .find-me h5 {
+        font-size: var(--h5);
+        font-weight: 900;
+        color: var(--text-color);
+    }
+    
+    .contact-footer {
+        margin-top: 530px;
+        text-align: center;
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+    .logo-Icon {
+        display: block;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .navbar {
+        position: fixed;
+        width: 25%;
+        margin-left: 520px;
+        top: -3rem;
+        left: 18px;
+        padding: 25px 0;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid var(--main-color);
+        box-shadow: 0 .5rem 1rem var(--main-color);
+        display: none;
+    }
+    .navbar.active {
+        display: block;
+        height: auto;
+        margin-top: 120px;
+    }
+    .navbar a {
+        text-align: center;
+        display:block;
+        font-size: 2rem;
+        margin: 3rem;
+    }
+    .bx-menu {
+        margin-left: 400px;
+    }
+    #menu-icon {
+        display: block;
+
+    }
+    #menu-icon:hover {
+        color: var(--main-color);
+        box-shadow: 0 .5rem 1rem var(--main-color);
+    } 
+    .btnConHeader {
+        display: none;
+    }
+    .btnConHeaderHidden {
+        display: block;
+        margin-left: -29px;
+    } 
+    .contactme-content h2 {
+        font-size: 3rem;
+        width: 250px;
+    }
+    .contactme-content h5 {
+        font-size: 2rem;
+    }
+
+    .contact-form, input {
+        height: 60px;
+        width: 300px;
+    }
+    .contact-form, textarea {
+        width: 300px;
+        height: 100px;
+
+    }
+    .contactme-input .btnCon {
+        margin-top: 292px;
+
+    }
+    .lineF {
+        margin-left: 200px;
+    }
+    .find-me {
+        margin-top: 50px;
+        margin-left: -70px;
+    }
+    
+    .contact-footer {
+        margin-top: 450px;
+        opacity: 60%;
+    }
+}
