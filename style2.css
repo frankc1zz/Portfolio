@@ -196,7 +196,7 @@ p {
     width: 100px;
     height: 3px;
     background-color: var(--main-color);
-    margin-top: -250px;
+    margin-top: -200px;
     margin-bottom: 20px;
     border: none;
     animation: slideLeft 1s ease backwards;
@@ -494,7 +494,7 @@ p {
 
 .works {
     background: var(--bg-color);
-    height: 130vh;
+    height: auto;
     width: 100%;
     padding: 200px 123px 0 123px;
     margin-bottom: 100px;
@@ -662,10 +662,9 @@ p {
 
 
 .contact {
-
     width: 100%;
     height: 30vh;
-    padding-top: 180px;
+    padding-top: 120px;
 }
 
 .contact-content {
@@ -1792,8 +1791,8 @@ margin-left: 50px;
         margin-bottom: 60px;
     }
     .services-box hr {
-    margin-left: 70px;
-    width: 75px;
+        margin-left: 70px;
+        width: 75px;
     }
     .line-Vertical2 {
         margin-left: 220px;
@@ -1876,9 +1875,14 @@ margin-left: 50px;
     }
     .social-medialinks .bx {
         font-size: 3rem;
+        margin-top: 50px;
     }
     .footer-line h3 {
         font-size: 2.5rem;
+        margin-top: 50px;
+    }
+    .contact button {
+        margin-top: 50px;
     }
     .footer {
         height: 10vh;
@@ -1887,11 +1891,15 @@ margin-left: 50px;
     }
     .footer p {
         font-size: 1rem;
+        margin-top: -10px;
+    }
+    .footer-iconTop {
+        margin-top: -10px;
     }
 }
 
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     .navbar {
         margin-left: 165px;
         width: 180px;
