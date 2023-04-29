@@ -1229,6 +1229,9 @@ margin-left: 50px;
     .line-Vertical {
         margin-left: 650px;
     }
+    .about-svg {
+        margin-left: -500px;
+    }
     .about {
         height: 130vh;
     }
@@ -1246,15 +1249,15 @@ margin-left: 50px;
     .line-Vertical3 {
         margin-left: 650px;
     }
-    .contact-content {
-        margin-top: -100px;
+    .contact {
+        margin-top: -50px;
     }
 }
 
 
 @media screen and (max-width: 1280px) {
     .home hr {
-        margin-top: -200px;
+        margin-top: -100px;
     }
 
     .home2 {
@@ -1268,6 +1271,9 @@ margin-left: 50px;
     .services-svg {
         margin-left: -50px;
     }
+    .services {
+        height: 160vh;
+    }
     .services-box-container {
         width: 270px;
     }
@@ -1277,7 +1283,7 @@ margin-left: 50px;
     }
 
     .works {
-        height: 180vh;
+        height: auto;
     }
     .works-svg {
         margin-left: 100px;
@@ -1295,7 +1301,7 @@ margin-left: 50px;
         margin-left: 600px;
     }
 
-  .btnConAbout {
+    .btnConAbout {
         margin-top: 50px;
     }
     .about-svg {
@@ -1306,12 +1312,12 @@ margin-left: 50px;
         margin-left:  600px;
     }
     .contact {
-        padding-top: 100px;
+        height: 60vh;
+        padding-top: 150px;
     }
 }
 
 @media screen and  (max-width: 1004px) {
-
     svg {
         display: none;
     }
@@ -1322,12 +1328,13 @@ margin-left: 50px;
         margin-left: 60px;
     }
     .home {
-        height: 90vh;
+        height: 120vh;
         padding: 0 123px;
 
     }
     .home-content hr {
-        display: none;
+        display: block;
+        margin-top: 50px;
     }
     .home-content {
         text-align: left;
@@ -1345,17 +1352,10 @@ margin-left: 50px;
     }
     .home-content h1 {
         font-size: 7rem;
-        font-weight: 900;
-        line-height: 1.3;
-        animation: zoomIn 1s ease backwards, floatText 4s ease-in-out infinite;
-        animation-delay: .9S, 2s;
         width: auto;
     }
     .home-content h5 {
         font-size: 2rem;
-        opacity: 37%;
-        font-weight: 900;
-        margin-bottom: 3rem;
     } 
     .home2 {
         height: 50vh;
@@ -1394,7 +1394,8 @@ margin-left: 50px;
         margin-top: 200px;
     }
     .services {
-    height: 100vh;
+    height: 150vh;
+    padding-top: 100px;
     }
     .services-box {
         width: 100%;
@@ -1411,7 +1412,8 @@ margin-left: 50px;
         margin-top: -50px;
     }
     .works {
-        height: 140vh;
+        height: auto;
+        padding-top: 100px;
     }
     .works-container {
         grid-template-columns: repeat(2,1fr);
@@ -1443,10 +1445,20 @@ margin-left: 50px;
         margin-left: 452px;
     }
     .contact {
-        height: 25vh;
+        height: 60vh;
+        padding-top: 100px;
+    }
+
+
+    .social-medialinks .bx {
+        margin-top: 80px;
     }
     .footer-line h3{
         font-size: 4rem;
+        margin-top: 80px;
+    }
+    .contact button {
+        margin-top: 80px;
     }
 }
 
@@ -1511,6 +1523,9 @@ margin-left: 50px;
         height: 450px;
         padding-top: 50px;
     }
+    .home-content hr {
+        display: none;
+    }
     .home-content h3 {
         font-size: 6rem;
     }
@@ -1528,7 +1543,7 @@ margin-left: 50px;
         height: 100vh;
         width: 100%;
         padding: 0;
-        margin-top: 600px;
+        margin-top: 400px;
         background-color: var(--bg-color);
     }
     .home-content2 {
@@ -1680,17 +1695,18 @@ margin-left: 50px;
         width: 75px;
     }
     .contact {
-        height: 30vh;
+        height: 60vh;
+
     }
     .contact-content button {
-        margin-top: -40px;
+        margin-top: 50px;
     }
     .social-medialinks .bx {
-        margin-top: -40px;
+        margin-top: 50px;
     }
     .footer-line h3{
         font-size: 3rem;
-        margin-top: -40px;
+        margin-top: 50px;
     }
     .footer {
         height: 15vh;
@@ -1899,7 +1915,7 @@ margin-left: 50px;
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 519px) {
     .navbar {
         margin-left: 165px;
         width: 180px;
@@ -1912,7 +1928,9 @@ margin-left: 50px;
     .bx-menu {
         margin-left: 160px;
     }
-
+    .home2 {
+        margin-top: 400px;
+    }
     .home-content .btnCon {
         margin-left: -10px;
     }
@@ -1970,7 +1988,8 @@ margin-left: 50px;
         margin-left: 150px;
     }
     .contact {
-        height: 50vh;
+        height: 60vh;
+        padding-top: 150px;
     }
     .contact-content {
         margin-top: -70px;
