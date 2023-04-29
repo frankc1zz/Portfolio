@@ -2028,7 +2028,39 @@ margin-left: 50px;
     }
 }
 
+@media screen and (max-width: 320px) {
+    .bx-menu {
+        margin-left: -50px;
+    }
 
+    .home {
+        border: 1px solid red;
+    }
+    
+
+
+    .works {
+        border: 1px solid orange;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .works-content {
+        border: 1px solid red;
+        width: 280px;
+    }
+
+    .works-container {
+        border: 1px solid red;
+        width: 200px;
+        margin-left: 40px;
+    }
+    .works-box {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+}
 
 
 /* @media screen and (max-width: 1200px) {
