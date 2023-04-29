@@ -412,7 +412,6 @@ p {
     position:absolute;
     text-align: center;
     overflow: hidden;  
-
 }
 .services-content {
     text-align: center;
@@ -1184,6 +1183,79 @@ margin-left: 50px;
     
 } */
 /*************************************Media Queries************************************/
+
+@media screen and (max-width: 1440px) {
+
+    .home hr {
+        margin-top: -150px;
+    }
+
+    .home {
+        height: 160vh;
+    }
+    .btnCon {
+        margin-top: 50px;
+    }
+    .graphicsvg {
+    margin-top: -400px;
+    }
+
+    .line-Vertical1 {
+        margin-left: 650px;
+    }
+    .services-svg {
+        margin-left: 70px;
+        margin-top: -200px;
+    }
+    .services {
+        height: 130vh;
+    }
+    .services-box-container {
+        width: 300px;
+    }
+
+    .line-Vertical2 {
+        margin-left: 650px;
+    }
+    .works {
+        height: auto;
+    }
+    .works-svg {
+        margin-left: 160px;
+    }
+    .works-box {
+        width: 370px;
+    }
+
+    .line-Vertical {
+        margin-left: 650px;
+    }
+    .about {
+        height: 130vh;
+    }
+    .about-image img {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .about-content h2{
+        margin-top: 50px;
+    }
+    .btnConAbout {
+        margin-top: 40px;
+    }
+
+    .line-Vertical3 {
+        margin-left: 650px;
+    }
+    .contact-content {
+        margin-top: -100px;
+    }
+}
+
+
+
+
+
 
 @media screen and (max-width: 1280px) {
     .home hr {
