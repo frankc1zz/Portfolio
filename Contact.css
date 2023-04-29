@@ -243,271 +243,173 @@ p {
     border: none;
 }
 
-.lineA {
+
+.contact-page {
+    width: 100%;
+    height: 160vh;
+    background-color: var(--bg-color);
+}
+
+.contact-me-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+.contact-page h1 {
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: var(--h1);
+    text-align: center;
+    padding-top: 240px;
+    z-index: 100;
+    animation: slideLeft 2s ease backwards;
+    animation-delay: .9S;
+}
+
+.contact-svg {
+    margin-top: -180px;
+    text-align: center;
+    opacity: 60%;
+    animation: slideRight 1s ease forwards;
+}
+
+.contactme-content {
+    margin-right: 100px;
+    height: auto;
+    width: 50vw;
+    padding-left: 246px;
+    text-align: left;
+    animation: slideLeft 2s ease forwards;
+}
+.contactme-content hr{
+    margin-top: 200px;
     width: 100px;
     height: 3px;
     background-color: var(--main-color);
-    margin-top: 200px;
-    margin-bottom: 20px;
-    padding-left: 123px;
     border: none;
     opacity: 100%;
-    animation: slideLeft 1s ease backwards;
-    animation-delay: .5S;
 }
-
-.AboutMe-Page {
-    width: 100%;
-    height: 120vh;
-    padding: 0 200px;
-    background-color: var(--bg-color);
-
-}
-
-.AboutMe-Content {
-
-    width: 100%;
-    height: auto;
-
-}
-.AboutMe-Page h2 {
-    color: var(--text-color);
-    margin-bottom: 10px;
+.contactme-content h2 {
     font-weight: 900;
+    color: var(--text-color);
     font-size: var(--h2);
+    margin-bottom: 70px;
 }
-
-.AboutMe-Text {
-    width: 100%;
-    height: auto;
-
-}
-.AboutMe-Text h5 {
-    opacity: 32%;
-    font-weight: 700;
-}
-.AboutMe-svg {
-    margin-top: -900px;
-    margin-left: -500px;
-    text-align: center;
-    opacity: 50%;
-    overflow-x:hidden;   
-}
-.AboutMe-Body {
-    margin-top: -100px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.AboutMe-Bodytext {
-    width: 50%;
-    height: auto;
-
-}
-.AboutMe-Bodytext h4 {
-    font-size: var(--h4);
-    font-weight: 900;
-    color: var(--text-color);
-    margin-top: 150px;
-}
-.AboutMe-Bodytext h4 span {
-    color: var(--main-color);
-}
-.AboutMe-Bodytext h5,p {
-    opacity: 52%;
-    margin-top: 20px;
+.contactme-content h5 {
     font-weight: 400;
-    text-align: left
-}
- 
-.AboutMe-Bodytext p {
-    font-size: var(--h6);
-}
-.line-about {
-    width: 450px;
-    height: 3px;
-    margin-bottom: 20px;
-    border: none;
-    background-color: var(--main-color);
-    margin-top: 100px;
-    opacity: 100%;
+    font-size: var(--h5);
+    color: var(--text-color);
+    opacity: 62%;
+    margin-bottom: 70px;
 }
 
-
-.AboutMe-educ h4, h6, p {
-    margin-top: 10px;
+.mail-me h5{
+    font-size: var(--h5);
+    font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 0;
 }
-.AboutMe-educ h4 {
-    color: var(--main-color);
-    font-weight: 700;
+.mail-me p {
+    font-size: var(--p1);
+    font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 60px;
+}
+.mail-me img {
     margin-bottom: 20px;
 }
-.AboutMe-educ h6 {
-    color: var(--text-color);
-    font-weight: 400;
-    font-size: var(--h6);
-    padding-left: 50px;
 
-}
-
-.AboutMe-educ p {
-    color: var(--text-color);
-    font-weight: 400;
-    font-size: var(--h6);
-    opacity: 48%;
-    padding-left: 50px;
-}
-
-.AboutMe-Profile {
-    width: 50%;
-    height: 50vh;
-}
-.AboutMe-Profile img {
-    width: 30vw;
-    padding-left: 100px;
-    margin-left: 100px;
-    margin-top: -150px;
-    opacity: 60%;
-
-
-}
-.ME-about-svg {
+.me-svg {
     width: 100%;
-    margin-top: 250px;
+    margin-top: 80px;
     margin-left: -200px;
     position:absolute;
     text-align: right;
-    z-index: 4;
-    overflow-x: hidden;
+    overflow: hidden;
     animation: slideLeft 2s ease backwards;
 }
-.line-VerticalAbout {
-    margin-top: 10px;
-    position: relative;
-    rotate:calc(90deg);
-    width: 121px;
-    height: 3px;
-    margin-left: 900px;
-    margin-top: 400px;
-    background-color: var(--main-color);
-    border: none;
-    opacity: 100%;
-}
-.AboutMe-Skills {
-    margin-top: 100px;
-    width: 100%;
-    height: 30vh;
 
-}
-.AboutMe-Skills h2{
-    font-weight: 900;
-    font-size: var(--h2);
-    color: var(--main-color);
-    text-align: center;
-}
-.SKILLS {
-    margin-top: 70px;
-    display: flex;
-    justify-content: center;
-}
-.SKILLS img {
-    margin-right: 20px;
-}
-.lineS {
-    position: absolute;
-    width: 750px;
-    height: 3px;
-    background-color: var(--main-color);
-    border: none;
-    opacity: 100%;
-    margin: 50px 0 0 550px;
-    padding-left: 200PX;
-}
-
-.Exp-content {
-    padding: 0 200px;
-
-}
-
-.AboutMe-Exp {
-    padding-top: 50px;
-}
-.Exp-content h2 {
-    color: var(--text-color);
-    font-weight: 900;
-    margin-top: -10px;
-}
-.Exp-lists {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 20vh;
-    margin-top: 50px;
-
-}
-.Exp-lists h5 {
-    font-weight: 700;
-    color: var(--main-color);
-}
-.Exp-lists h3 {
-    font-weight: 700;
-    opacity: 62%;
-}
-.Exp-lists .list {
-    width: 500px;
-    height: auto;
-
-}
-
-.line-VerticalSocial {
+.contactme-input {
     margin-top: 200px;
-    position: relative;
-    rotate:calc(90deg);
-    width: 121px;
-    height: 3px;
-    margin-left: 900px;
-    background-color: var(--main-color);
-    border: none;
-    opacity: 100%;
+    height: 760px;
+    width: 50vw;
+    z-index: 3;
+    animation: slideLeft 2s ease backwards;
 }
-.AboutMe-SocialMedia {
-    width: 100%;
-    height: 200px;
-    padding-top: 75px;
+
+
+input[type=text]:focus {
     background-color: var(--second-bg-color);
-}
+    outline: none;
+    transition: .3s;
+    color: var(--main-color);
+  }
 
-.download-CV {
-
-margin-left: 50px;
-
-}
-.LineSkill {
-    width: 100px;
-    height: 3px;
-    background-color: var(--main-color);
-    margin-left: 200PX;
-    margin-bottom: 20px;
-    padding-left: 123px;
-    border: none;
-    opacity: 100%;
-    animation: slideLeft 1s ease backwards;
-    animation-delay: .5S;
+.contact-form, input {
+    height: 90px;
+    width: 520px;
+    padding-left: 30px;
+    font-size: 16px;
+    background:white;
 
 }
+.contact-form, input[type=text] {
+    color: var(--bg-color);
+}
 
-.AboutMe-SocialM {
+.contact-form, textarea {
+    padding-left: 30px;
+    padding-top: 30px ;
+    width: 520px;
+    height: 140px;
+    border-color: var(--main-color);
+    background: transparent;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.contact-form, textarea[type=text] {
+    color: var(--text-color);
+}
+
+textarea:focus {
+    background-color:#161616;
+    outline: none;
+    transition: .3s;
+    color: var(--text-color);
+}
+
+.contactme-input .btnCon {
+    margin-top: 382px;
     margin-left: 200px;
+}
+
+
+
+.contactme-input .lineF {
+    margin-top: 100px;
+}
+.find-me {
+    margin-left: 140px;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
     width: 450px;
     height: 50px;
 }
-.AboutMe-SocialM h5 {
-    font-weight: 700;
+.contactme-input hr {
+    margin-left: 170px;
+    opacity:100%;
+}
+.find-me h5 {
+    font-size: var(--h5);
+    font-weight: 900;
+    color: var(--text-color);
+}
+
+.contact-footer {
+    margin-top: 160px;
+    text-align: center;
+    font-size: 1.6rem;
 }
 

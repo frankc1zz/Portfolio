@@ -733,7 +733,7 @@ p {
 
 /****************CONTACT-PAGE*********************************/
 
-.contact-page {
+/* .contact-page {
     width: 100%;
     height: 160vh;
     background-color: var(--bg-color);
@@ -901,7 +901,7 @@ textarea:focus {
     text-align: center;
     font-size: 1.6rem;
 }
-
+ */
 
 
 
@@ -910,7 +910,7 @@ textarea:focus {
 /*************************************AboutMe Page********************/
 
 
-.lineA {
+/* .lineA {
     width: 100px;
     height: 3px;
     background-color: var(--main-color);
@@ -1176,7 +1176,7 @@ margin-left: 50px;
 }
 .AboutMe-SocialM h5 {
     font-weight: 700;
-}
+} */
 
 /* @media   {
     
@@ -1460,6 +1460,12 @@ margin-left: 50px;
     .contact button {
         margin-top: 80px;
     }
+
+
+/***************ContactPage-HTML*******/
+
+
+
 }
 
 @media screen and (max-width: 768px) {
