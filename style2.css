@@ -2029,16 +2029,45 @@ margin-left: 50px;
 }
 
 @media screen and (max-width: 320px) {
+
+    .btnCon {
+        width: 220px;
+    }
+    .buttonBox {
+        width: 100px;
+        height: 35px;
+        font-size: 1.2rem;
+    }
+
     .bx-menu {
         margin-left: -50px;
     }
 
-    .home {
+    .home-content h3 {
+        font-size: 3rem;
+    }
+    .home-content h1 {
+        font-size: var(--h2);
+    }
+    .home-content h5 {
+        font-size: var(--h6);
+    }
+    .home-content .btnCon {
+        margin-left: 0px;
+    }
+
+    .home2 {
+        border: 1px solid red;
+        margin-top: 300px;
+    }
+    .home-content2 {
         border: 1px solid red;
     }
-    
-
-
+    .home-content2 .contentbox {
+        width: 200px;
+        height: 270px;
+    }
+    .home-content2 
     .works {
         border: 1px solid orange;
         padding-left: 20px;
