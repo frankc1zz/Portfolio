@@ -677,4 +677,56 @@ textarea:focus {
 
 }
 
+@media screen and (max-width: 375px) {
+  
+    .header {
+        height: 50px;
+    }
+    .logo-Icon {
+        margin-left: -10px;
+    }
+    .bx-menu {
+        margin-left: 170px;
+    }
+    .navbar {
+        margin-left: 190px;
+    }
+    .contact-me-page .line-horizontal {
+        width: 50px;
+    } 
 
+    .contactme-content {
+        margin-left: 70px;
+    }
+    .contactme-content h2{
+        font-size: var(--h5);
+    }
+    .contactme-content h5 {
+        font-size: var(--h6);
+    }
+    .contactme-content p {
+        font-size: 1.4rem;
+    }
+
+    .contactme-input .btnCon {
+        margin-left: 100px;
+        width: 142px;
+        margin-top: 330px;
+    }
+
+    .contact-form button {
+        margin-left: 70px;
+        margin-top: 30px;
+}
+    .contactme-input {
+        margin-left: 0px;
+        width: 350px;
+    }
+    .find-me {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .contact-footer {
+        font-size: 1.2rem;
+    }
+}
