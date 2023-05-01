@@ -862,7 +862,80 @@ margin-left: 50px;
     }
 }
 
+@media screen and (max-width: 320px) {
 
+    .logo-Icon {
+        margin-left: -20px;
+    }
+    .bx-menu {
+        margin-left: 120px;
+    }
+    .navbar {
+        margin-left: 140px;
+    }
+    .AboutMe-Page .lineA {
+        margin-left: 70px;
+    }
+    .AboutMe-Text {
+        margin-left: 30px;
+    }
+    .AboutMe-Profile {
+        margin-left: -10px;
+    }
+    .AboutMe-Profile img {
+        width: 80vw;
+        margin-left: -15px;
+    }
+    .AboutMe-Bodytext {
+        width: 260px;
+    }
+    .AboutMe-Bodytext h4 {
+        font-size: 2rem;
+    }
+    .AboutMe-Bodytext h5 {
+        font-size: 1.8rem;
+    }
+    .AboutMe-Bodytext p {
+        font-size: 1.4rem;
+    }
+
+    .line-VerticalAbout {
+        margin-left:  130px;
+    }
+    .lineS {
+        margin-left: 60px;
+    }
+    .SKILLS {
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .SKILLS img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .lineA {
+        margin-top: 150px;
+    }
+    .Exp-content {
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    .Exp-lists {
+        width: 280px;
+    }
+    .Exp-lists h5 {
+        font-size: 1.2rem;
+    }
+    .Exp-lists h3 {
+        font-size: 1.6rem;
+    }
+    .line-VerticalSocial {
+        margin-left: 130px;
+    }
+
+}
 
 
 
