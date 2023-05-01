@@ -679,9 +679,6 @@ textarea:focus {
 
 @media screen and (max-width: 375px) {
   
-    .header {
-        height: 50px;
-    }
     .logo-Icon {
         margin-left: -10px;
     }
@@ -728,5 +725,31 @@ textarea:focus {
     }
     .contact-footer {
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .btnCon {
+        width: 220px;
+    }
+    .buttonBox {
+        width: 100px;
+        height: 35px;
+        font-size: 1.2rem;
+    }
+    .contactme-input .btnCon {
+        margin-left: 115px;
+
+    }
+    .contact-form button {
+        margin-left: 85px;
+        margin-top: 30px;
+}
+    .bx-menu {
+        margin-left: 100px;
+    }
+    .navbar {
+        margin-left: 130px;
     }
 }
