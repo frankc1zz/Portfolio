@@ -725,7 +725,8 @@ margin-left: 50px;
         width: 300px;
     }
     .line-VerticalAbout {
-        margin-left: 200px;
+        margin-left: 220px;
+        width: 75px;
     }
     .SKILLS img {
         width: 90px;
@@ -736,7 +737,7 @@ margin-left: 50px;
     }
     .lineA {
         margin-left: 140px;
-        margin-top: 100px;
+        margin-top: 150px;
     }
     .AboutMe-Exp {
         height: auto;
@@ -755,7 +756,186 @@ margin-left: 50px;
         margin-left: 50px;
     }
     .line-VerticalSocial {
-        margin-left: 200px;
+        margin-left: 220px;
+        width: 75px;
     }
 
+}
+
+@media screen and (max-width: 375px) {
+
+    .buttonBox {
+        width: 100px;
+        font-size: 1.4rem;
+    }
+    .logo-Icon {
+        margin-left: -20px;
+    }
+    .bx-menu {
+        margin-left: 180px;
+    }
+    .navbar {
+        margin-left: 190px;
+    }
+    .navbar a {
+        font-size:  1.4rem;
+    }
+    .download-CVHidden {
+        margin-left: -15px;
+    }
+    .AboutMe-Page {
+        width: auto;
+        padding:0 30px;
+    }
+
+    .AboutMe-Page .lineA {
+        margin-left: 85PX;
+    }
+    .AboutMe-Content {
+        padding: 0;
+        width: 100%;
+    }
+    .AboutMe-Text {
+        margin-left: 60px;
+        width: 200px;
+    }
+    .AboutMe-Text h5 {
+        font-size: var(--h6);
+    }
+    .AboutMe-Bodytext {
+        margin-top: -250px;
+        width: 300px;
+    }
+    .AboutMe-Bodytext h4 {
+        font-size: var(--h5);
+    }
+    .AboutMe-Bodytext h5 {
+        font-size: 1.8rem;
+    }
+    .AboutMe-Bodytext p {
+        font-size: 1.4rem;
+    }
+    .line-about {
+        width: 100px;
+    }
+    .line-VerticalAbout {
+        margin-left: 150px;
+    }
+    .AboutMe-Skills h2 {
+        font-size: var(--h4);
+    }
+    .lineS {
+        width: 200px;
+        margin-left: 90px;
+    }
+
+    .lineA {
+        margin-left: 75px;
+    }
+    .Exp-content {
+        padding-left: 40px;
+        padding-right: 10px;
+    }
+    .Exp-lists {
+        height: auto;
+        width: 300px;
+    }
+    .Exp-lists h5 {
+        font-size: 1.4rem;
+    }
+    .Exp-lists h3 {
+        font-size: 1.8rem;
+    }
+
+    .line-VerticalSocial {
+        margin-left: 150px;
+    }
+    .AboutMe-SocialM {
+        width: 260px;
+    }
+    .AboutMe-SocialM h5 {
+        font-size: var(--h6);
+    }
+    .AboutMe-SocialM img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************KEYFRAMES***********************************/
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes floatText {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-24px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
