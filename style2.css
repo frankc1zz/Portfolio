@@ -1190,7 +1190,7 @@ margin-left: 50px;
     }
 
     .home {
-        height: 160vh;
+        height: 100vh;
     }
     .btnCon {
         margin-top: 50px;
@@ -1207,7 +1207,7 @@ margin-left: 50px;
         margin-top: -200px;
     }
     .services {
-        height: 130vh;
+        height: 100vh;
     }
     .services-box-container {
         width: 300px;
@@ -1233,7 +1233,7 @@ margin-left: 50px;
         margin-left: -500px;
     }
     .about {
-        height: 130vh;
+        height: 100vh;
     }
     .about-image img {
         margin-top: 100px;
@@ -1256,8 +1256,11 @@ margin-left: 50px;
 
 
 @media screen and (max-width: 1280px) {
+    .home {
+        height: 100vh;
+    }
     .home hr {
-        margin-top: -100px;
+        margin-top: -50px;
     }
 
     .home2 {
@@ -1272,7 +1275,7 @@ margin-left: 50px;
         margin-left: -50px;
     }
     .services {
-        height: 160vh;
+        height: 100vh;
     }
     .services-box-container {
         width: 270px;
@@ -1312,7 +1315,7 @@ margin-left: 50px;
         margin-left:  600px;
     }
     .contact {
-        height: 60vh;
+        height: 30vh;
         padding-top: 150px;
     }
 }
@@ -1328,13 +1331,12 @@ margin-left: 50px;
         margin-left: 60px;
     }
     .home {
-        height: 120vh;
+        height: 100vh;
         padding: 0 123px;
-
     }
     .home-content hr {
         display: block;
-        margin-top: 50px;
+        margin-top: -50px;
     }
     .home-content {
         text-align: left;
@@ -1370,13 +1372,13 @@ margin-left: 50px;
         width: 100vw;
     }
     .home-content2 .future {
-        margin-top: -400px;
+        margin-top: -700px;
     }
     .home-content2 .product {
-        margin-top: -200px;
+        margin-top: -400px;
     }
     .home-content2 .creative {
-        margin-top: 100px;
+        margin-top: -200px;
     }
     .home-content2 .contentbox {
         width: 222px;
@@ -1394,7 +1396,7 @@ margin-left: 50px;
         margin-top: 200px;
     }
     .services {
-    height: 150vh;
+    height: 100vh;
     padding-top: 100px;
     }
     .services-box {
@@ -1427,6 +1429,7 @@ margin-left: 50px;
     }
     .about {
         padding: 0 123px;
+        height: 90vh;
     }
     .about-image img {
         width: 280px;
@@ -1445,7 +1448,7 @@ margin-left: 50px;
         margin-left: 452px;
     }
     .contact {
-        height: 60vh;
+        height: 30vh;
         padding-top: 100px;
     }
 
@@ -1522,7 +1525,7 @@ margin-left: 50px;
         background: rgb(0,0,0);
         background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,78,3,1) 100%, rgba(0,135,6,1) 100%, rgba(0,169,7,1) 100%, rgba(0,204,9,1) 100%, rgba(0,219,10,1) 100%, rgba(0,255,12,1) 100%);
         padding:0 50px;
-        height: 130vh;
+        height: 90vh;
     }
     .home-content {
         text-align: center;
@@ -1546,7 +1549,7 @@ margin-left: 50px;
         margin-left: 190px;
     }
     .home2 {
-        height: 100vh;
+        height: 70vh;
         width: 100%;
         padding: 0;
         margin-top: 400px;
@@ -1589,7 +1592,7 @@ margin-left: 50px;
         width: 75PX;
     }
     .services { 
-        height: 120vh;
+        height: 90vh;
         width: 100%;
         align-items: center;
         padding-top: 60px;
@@ -1669,7 +1672,7 @@ margin-left: 50px;
     .about {
         margin-bottom: -40px;
         padding: 0 100px;
-        height: 100vh;
+        height: 90vh;
     }
     .about-image img {
         width: 280px;
@@ -1701,7 +1704,7 @@ margin-left: 50px;
         width: 75px;
     }
     .contact {
-        height: 60vh;
+        height: 30vh;
 
     }
     .contact-content button {
@@ -1715,7 +1718,7 @@ margin-left: 50px;
         margin-top: 50px;
     }
     .footer {
-        height: 15vh;
+        height: 10vh;
     }
     .footer p { 
         font-size: 1.4rem;
@@ -1740,7 +1743,7 @@ margin-left: 50px;
     }
     .home {
         height: 90vh;
-        margin-top: 100px;
+        margin-top: 10px;
         padding: 0 50px;
     }
     .home-content {
@@ -1903,6 +1906,9 @@ margin-left: 50px;
         font-size: 2.5rem;
         margin-top: 50px;
     }
+    .contact {
+        height: 30vh;
+    }
     .contact button {
         margin-top: 50px;
     }
@@ -1925,7 +1931,6 @@ margin-left: 50px;
     .navbar {
         margin-left: 165px;
         width: 180px;
- 
     }
     .navbar a {
         font-size: 1.8rem;
@@ -1933,6 +1938,10 @@ margin-left: 50px;
     }
     .bx-menu {
         margin-left: 160px;
+    }
+    .home {
+        margin-top: 10px;
+        height: 70vh;
     }
     .home2 {
         margin-top: 400px;
@@ -1968,7 +1977,7 @@ margin-left: 50px;
         margin-left: 150px;
     }
     .about {
-        height: 190vh;
+        height: 120vh;
     }
     .about-image {
         margin-left: 50px;
@@ -1994,7 +2003,7 @@ margin-left: 50px;
         margin-left: 150px;
     }
     .contact {
-        height: 60vh;
+        height: 40vh;
         padding-top: 150px;
     }
     .contact-content {
@@ -2058,8 +2067,13 @@ margin-left: 50px;
         margin-left: -5px;
     }
 
+    .home {
+        margin-top: 10px;
+        height: 70vh;
+    }
     .home-content h3 {
         font-size: 3rem;
+        
     }
     .home-content h1 {
         font-size: var(--h2);
@@ -2115,6 +2129,9 @@ margin-left: 50px;
     .line-Vertical {
         margin-left: 125px;
     }
+    .about {
+        height: 110vh;
+    }
     .about-image {
         width: 210px;
         height: 225px;
@@ -2150,7 +2167,7 @@ margin-left: 50px;
         margin-left: 125px;
     }
     .contact {
-        height: 60vh;
+        height: 40vh;
         padding-top: 150px;
     }
     .contact-content {
