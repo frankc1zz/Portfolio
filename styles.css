@@ -2043,6 +2043,95 @@ margin-left: 50px;
     }
 }
 
+@media screen and (max-width:374px) {
+    .bx-menu {
+        margin-left: 80px;
+    }
+    .navbar {
+        margin-left: 170px;
+    }
+
+    .line-Vertical1 { 
+        margin-left: 150px;
+    }
+    .home-content .btnCon {
+        margin-left: -15px;
+    }
+    .home-content2 {
+        margin-top: -200px;
+    }
+    .services {
+        padding-left: 30px;
+    }
+    .services-box {
+        margin-left: 40px
+    }
+
+    .line-Vertical2 {
+        margin-left: 150px;
+    }
+    .works-content {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .works-box {
+        width: 250px;
+        height: 250px;
+    }
+
+    .line-Vertical {
+        margin-left: 150px;
+    }
+    .about-content h2 {
+        margin-top: -50px;
+    }
+    .btnConAbout {
+        margin-left: -60px;
+    }
+    .line-Vertical3 {
+        margin-left: 150px;
+    }
+
+    .contact {
+        height: 35vh;
+    }
+    .contact-content {
+        margin-top: -70px;
+        flex-direction: column;
+    }
+    .social-medialinks {
+        width: 80px;
+  
+        height: auto;
+    }
+    .social-medialinks .bx {
+        font-size: 2.6rem;
+        margin-top: 80px;
+    }
+    .footer-line h3 {
+        font-size: 2.6rem;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .contact-content button {
+        margin-top: 30px;
+    }
+    .footer {
+        height: 5vh;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer p {
+        margin-top: -10px;
+    }
+    .footer-iconTop {
+        margin-top: -15px;
+    }
+    .footer-iconTop a i {
+        font-size: 1.6rem;
+    }
+}
+
 @media screen and (max-width: 320px) {
 
     .btnCon {
