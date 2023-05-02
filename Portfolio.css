@@ -141,6 +141,9 @@ p {
     color: var(--text-color);
     display: none;
 }
+.download-CVHidden {
+    display: none;
+}
 
 /***********************************Buttons***********************************/
 
