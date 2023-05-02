@@ -677,6 +677,29 @@ textarea:focus {
 
 }
 
+
+@media screen and (max-width: 414px) {
+    .bx-menu {
+        margin-left: 140px;
+    }
+
+    .navbar {
+        margin-left: 220px;
+    }
+    .contact-form {
+        margin-left: 60px;
+    }
+    .contact-form button {
+        margin-left: 10px;
+    }
+    .contactme-input .btnCon {
+        margin-left: 250px;
+    }
+    .find-me {
+        margin-left: 90px;
+    }
+}
+
 @media screen and (max-width: 375px) {
   
     .logo-Icon {
