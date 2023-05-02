@@ -2177,6 +2177,9 @@ margin-left: 50px;
     .home2 {
         margin-top: 300px;
     }
+    .home-content2 {
+        margin-top: 50px;
+    }
     .home-content2 svg {
         margin-top: 10px;
     }
@@ -2194,8 +2197,9 @@ margin-left: 50px;
         margin-left: 125px;
     }
     .services-box {
-        margin-left: 45px;
+        margin-left: 15px;
     }
+
     .line-Vertical2 {
         margin-left: 125px;
     }

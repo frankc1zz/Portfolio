@@ -778,6 +778,63 @@ margin-left: 50px;
 
 }
 
+@media screen and (max-width:414px) {
+    .bx-menu {
+        margin-left: 200px;
+    }
+    .navbar {
+        margin-left: 220px;
+    }
+
+    .AboutMe-Page {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .AboutMe-Text{
+        width: 100%;
+    }
+
+    .AboutMe-Profile img {
+        margin-left: 60px;
+    }
+    .AboutMe-SocialM {
+        width: 300px;
+    }
+    .AboutMe-SocialM h5 {
+        font-size: var(--h6);
+    }
+    .AboutMe-SocialM img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .line-VerticalAbout {
+        margin-left: 160px;
+    }
+    .lineS {
+        margin-left: 110px;
+        width: 75px;
+    }
+    .lineA {
+        margin-left: 100px;
+    }
+    .Exp-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Exp-lists h5 {
+        font-size: var(--h6);
+    }
+    .Exp-lists h3 {
+        font-size: 2.4rem;
+    }
+    .line-VerticalSocial {
+        margin-left: 160px;
+    }
+
+} 
+
+
 @media screen and (max-width: 375px) {
 
     .buttonBox {
