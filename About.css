@@ -555,6 +555,20 @@ margin-left: 50px;
 }
 
 @media screen and (max-width: 1004px) {
+
+
+    .navbar-parent {
+        width: 650px;
+        padding-top: 10px;
+    }
+    .navbar a {
+        font-size: 1.6rem;
+        margin-left: 3rem;
+    }
+    .download-CV {
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
     svg {
         display: none;
     }
@@ -597,7 +611,7 @@ margin-left: 50px;
     .navbar {
         position: fixed;
         width: 25%;
-        margin-left: 550px;
+        margin-left: 540px;
         top: -3rem;
         left: 18px;
         padding: 25px 0;
@@ -626,7 +640,7 @@ margin-left: 50px;
         margin-left: -20px;
     }
     .bx-menu {
-        margin-left: 570px;
+        margin-left: 470px;
     }
     #menu-icon {
         display: block;
