@@ -264,7 +264,7 @@ p {
 .Portfolio-hero h1 {
     font-size: 100px;
     text-align: center;
-    margin-top: 250px;
+    margin-top: 220px;
     animation: slideLeft 2s ease forwards;
 }
 
@@ -353,11 +353,15 @@ p {
 }
 
 
-
+@media screen and (max-width:1920px) {
+    .Portfolio-hero h1 {
+        margin-top: 170px;
+    }
+}
 
 @media screen and (max-width:1880px) {
     .Portfolio-hero h1 {
-        margin-top: 150px;
+        margin-top: 140px;
     }
 }
 
