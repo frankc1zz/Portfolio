@@ -2045,10 +2045,10 @@ margin-left: 50px;
 
 @media screen and (max-width:374px) {
     .bx-menu {
-        margin-left: 80px;
+        margin-left: 120px;
     }
     .navbar {
-        margin-left: 170px;
+        margin-left: 150px;
     }
 
     .line-Vertical1 { 
@@ -2072,7 +2072,7 @@ margin-left: 50px;
     }
     .works-content {
         width: 100%;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .works-box {
         width: 250px;
@@ -2093,7 +2093,7 @@ margin-left: 50px;
     }
 
     .contact {
-        height: 35vh;
+        height: 40vh;
     }
     .contact-content {
         margin-top: -70px;
