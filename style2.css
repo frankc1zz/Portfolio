@@ -2126,6 +2126,24 @@ margin-left: 50px;
         height: 200px;
         margin-bottom: 10px;
     }
+
+    .works-layer h4 {
+        font-size: var(--h5);
+    }
+    .works-layer p {
+        font-size: var(--p2);
+    }
+    .works-layer a {
+        width: 3rem;
+        height: 3rem;
+        margin-top: -20px;
+    }
+    .works-layer a i {
+        font-size: 1.4rem;
+    }
+    
+    
+
     .line-Vertical {
         margin-left: 125px;
     }
@@ -2207,6 +2225,9 @@ margin-left: 50px;
     }
 
 }
+
+
+
 
 
 /* @media screen and (max-width: 1200px) {

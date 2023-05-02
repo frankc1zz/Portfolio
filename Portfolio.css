@@ -1,0 +1,731 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --bg-color: #000000;
+    --second-bg-color: #161616;
+    --main-color: #54FF04;
+    --text-color: #ffffff;
+
+    /***************************Buttons******************/
+--btnW: 142px;
+--btnH: 42px;
+--btnFontz:16px;
+
+--btnColor: #54FF04;
+--btnRadiant: linear-gradient(var(--main-color), var(--bg-color));
+
+
+
+ /**************************font-size*******************/
+--h1: clamp(4rem, calc(4rem + ((1vw - 0.325rem) * 2.8571)), 6.5rem);
+--h2: clamp(3rem, calc(3rem + ((1vw - 0.325rem) * 2.8571)), 5.5rem);
+--h3: clamp(3.5rem, calc(3rem + ((1vw - 0.325rem) * 2.8571)), 4.5rem);
+--h4: clamp(2.8rem, calc(2.8rem + ((1vw - 0.325rem) * 0.8)), 3.5rem);
+--h5: clamp(1.8rem, calc(2.8rem + ((1vw - 0.325rem) * 0.8)), 2.5rem);
+--h6: clamp(1.6rem, calc(1.6rem + ((1vw - 0.325rem) * 0.4571)), 2rem);
+
+--p1: clamp(1rem, calc(2.8rem + ((1vw - 0.325rem) * 0.8)), 1.6rem);
+--p2:  clamp(1rem, calc(2.8rem + ((1vw - 0.325rem) * 0.8)), 1.5rem);
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+
+    color: var(--text-color);
+}
+
+h1 {
+    font-size: var(--h1);
+    color: var(--text-color);
+    font-weight: 700;
+      }
+
+
+h2 {
+    font-size: var(--h2);
+    color: var(--text-color);
+    }
+h3 {
+    font-size: var(--h3);
+}
+h4 { 
+    font-size: var(--h4);
+}
+h5 {
+    font-size: var(--h5);
+}
+h6 {
+    font-size: var(--h6);
+}
+p {
+    font-size: var(--p1);
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 9rem;
+    padding: 5rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 1px solid var(--second-bg-color);
+
+}
+.logo-Icon {
+    display: none;
+    cursor: default;
+    animation: slideRight 2s ease forwards;
+}
+.logo {
+    font-size: clamp(1.3rem, calc(1.6rem + ((1vw - 0.325rem) * 0.4571)), 3rem);
+    color: var(--text-color);
+    font-weight: 900;
+    cursor: default;
+    animation: slideRight 2s ease forwards;
+
+}
+.logo span {
+    color: var(--main-color);
+}
+
+.navbar-parent {
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-right: -40px;
+}
+.navbar {
+    width: 600px;
+    height: 40px;
+    margin-right: 50px;
+
+}
+.navbar a {
+    width: 70px;
+    font-size: clamp(1rem, calc(1.6rem + ((1vw - 0.325rem) * 0.4571)), 3rem);
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 900;
+    transition: .3s;
+
+}
+.navbar a:hover, 
+.navbar a.active {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+#menu-icon {
+    font-size: 4rem;
+    color: var(--text-color);
+    display: none;
+}
+
+/***********************************Buttons***********************************/
+
+.btnCon {
+    display: flex;
+    justify-content:space-between ;
+    width: 304px;
+    height: auto;
+    margin-top: 103px;
+}
+.btnConHeader {
+    width: 304px;
+    height: auto;
+}
+.btnConHeaderHidden {
+    display: none;
+}
+.button1 {
+    background-image: var(--btnRadiant);
+    transition: .3s;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .3S;
+    transition: .5s;
+}
+.button1:hover {
+    color: var(--bg-color);
+    background: var(--main-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.button2 {
+    color:var(--text-color);
+    border: 1px solid var(--text-color);
+    background-color: transparent;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .3S;
+    transition: .5s;
+}
+.button2:hover {
+    color: var(--main-color);
+    background: var(--bg-color);
+    border: 1px solid var(--main-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.buttonBox {
+    width: var(--btnW);
+    height: var(--btnH);
+    font-size: var(--btnFontz);
+    font-weight: 900;
+    font-family: var(--btnFonts);
+}
+
+/********************************LIne****************************/
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--main-color);
+    margin-top: -200px;
+    margin-bottom: 20px;
+    border: none;
+    animation: slideLeft 1s ease backwards;
+    animation-delay: .5S;
+}
+.line-Vertical {
+    position: relative;
+    rotate:calc(90deg);
+    width: 121px;
+    height: 3px;
+    margin-left: 900px;
+    background-color: var(--main-color);
+    border: none;
+}
+
+.line-Vertical1 {
+    position: relative;
+    rotate:calc(90deg);
+    width: 121px;
+    height: 3px;
+    margin-left: 900px;
+    background-color: var(--main-color);
+    border: none;
+}
+
+.line-Vertical2 {
+    position: relative;
+    rotate:calc(90deg);
+    width: 121px;
+    height: 3px;
+    margin-left: 900px;
+    background-color: var(--main-color);
+    border: none;
+    margin-top: 50px;
+}
+
+.line-Vertical3 {
+    position: relative;
+    rotate:calc(90deg);
+    width: 121px;
+    height: 3px;
+    margin-left: 900px;
+    background-color: var(--main-color);
+    border: none;
+}
+
+
+.Portfolio-hero {
+    height: 100vh;
+    width: 100%;
+    padding: 100px 200px;
+}
+
+.Portfolio-svg {
+    text-align: center;
+    margin-top: -700px;
+}
+
+.Portfolio-hero h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 250px;
+    animation: slideLeft 2s ease forwards;
+}
+
+.line-horizontal {
+    margin: 30px 0 0 130px;
+    width: 90px;
+    height: 3px;
+    background-color: var(--main-color);
+    border: none;
+    opacity: 100%;
+    margin-top: 150px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    animation: slideLeft 2s ease forwards;
+}
+
+.Portfolio-heading {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Portfolio-heading h3 {
+    font-size: var(--h3);
+    font-weight: 700;
+    animation: slideLeft 2s ease forwards;
+}
+.btnConHeader {
+    margin-right: -160px;
+    animation: slideLeft 2s ease forwards;
+}
+
+.Gallery {
+    width: 100%;
+    padding: 100px 200px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 100px;
+    column-gap:100px;
+    margin-top: 300px;
+}
+.Gallery img {
+    width: 400px;
+    height: 400px;
+    animation: slideLeft 2s ease forwards;
+}
+.Gallery img:hover {
+
+    box-shadow:0 0  3rem var(--main-color);
+    transition: .5s ease;
+}
+
+.find-me {
+    margin-left: 165px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 450px;
+    height: 50px;
+    animation: slideLeft 2s ease forwards;
+}
+
+.find-me h5 {
+    font-size: var(--h5);
+    font-weight: 900;
+    color: var(--text-color);
+}
+.lineF {
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 100px;
+    height: 3px;
+    background-color: var(--main-color);
+    border: none;
+    opacity: 100%;
+    animation: slideLeft 2s ease forwards;
+}
+
+.contact-footer {
+    margin-top: 160px;
+    text-align: center;
+    font-size: 1.6rem;
+    opacity: 65%;
+}
+
+
+
+
+@media screen and (max-width:1880px) {
+    .Portfolio-hero h1 {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+
+    .Portfolio-hero {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .Gallery {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    .Gallery img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+@media screen and (max-width:1280px) {
+    .Portfolio-svg {
+        display: none;
+    }
+    .btnConHeader {
+        width: auto;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:1004px) {
+
+    .logo {
+        margin-left: -50px;
+    }
+    .navbar-parent {
+        width: 700px;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    .Portfolio-hero h3 {
+        margin-left: -50px;
+    }
+    .Portfolio-hero hr {
+        margin-left: -50px;
+    }
+    .btnConHeader {
+        margin-right: -50px;
+    }
+    .Gallery {
+        padding: 0 50px;
+        row-gap: 70px;
+        column-gap:70px;
+        margin-top: -100px;
+    }
+    .Gallery img {
+        width: 250px;
+        height: 250px;
+    }
+    .find-me {
+        margin-left: 50px;
+    }
+    .lineF {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .logo {
+        display: none;
+    }
+    .logo-Icon {
+        display: block;
+        margin-left: -30px;
+    }
+    .navbar {
+        position: fixed;
+        width: 25%;
+        margin-left: 520px;
+        top: -3rem;
+        left: 18px;
+        padding: 25px 0;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid var(--main-color);
+        box-shadow: 0 .5rem 1rem var(--main-color);
+        display: none;
+        
+    }
+    .navbar.active {
+        display: block;
+        height: auto;
+        margin-top: 120px;
+    }
+    .download-CV {
+        display: none;
+    }
+    .download-CVHidden {
+        display: block;
+        margin-left: -20px;
+    }
+    .navbar a {
+        text-align: center;
+        display:block;
+        font-size: 2rem;
+        margin: 3rem;
+    }
+    .bx-menu {
+        margin-left: 520px;
+        
+    }
+    #menu-icon {
+        display: block;
+
+    }
+    #menu-icon:hover {
+        color: var(--main-color);
+        box-shadow: 0 .5rem 1rem var(--main-color);
+    } 
+
+    .Portfolio-hero h1 {
+        font-size: 80px;
+    } 
+
+    .Portfolio-heading h3 {
+        font-size: var(--h4);
+    }
+    .Gallery {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 50px;
+        column-gap: 80px;
+        margin-top: -200px;
+    }
+    .Gallery img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:520px) {
+
+    .navbar {
+        margin-left: 330px;
+        width: auto;
+    }
+    .bx-menu {
+        margin-left: 320px;
+    }
+    .download-CVHidden {
+        margin-left: -35px;
+    }
+    .Portfolio-hero {
+        padding: 50px 50px;
+    }
+    .Portfolio-hero hr {
+        margin-left: -20px;
+    }
+    .Portfolio-heading h3 {
+        font-size: var(--h5);
+        margin-left: -20px
+    }
+    .btnConHeader {
+        margin-right: -20px;
+    }
+    .Gallery {
+        row-gap: 20px;
+        column-gap: 30px;
+    }
+    .Gallery img {
+        width: 200px;
+        height: 200px;
+    }
+    .lineF {
+        margin-left: 50px;
+    }
+    .find-me {
+        margin-left: 30px;
+        width: 300px;
+    }
+    .find-me h5 {
+        font-size:  var(--h6);
+    }
+    .find-me img {
+        width: 30px;
+        height: 30px;
+    }
+    .contact-footer {
+        font-size:  1.4rem;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+@media screen and (max-width:375px) {
+    .logo-Icon {
+        margin-left: -20px;
+    }
+    .bx-menu {
+        margin-left: 175px;
+    }
+    .navbar {
+        margin-left: 190px;
+    }
+    .download-CVHidden {
+        margin-left: -10px;
+    }
+    .Portfolio-hero {
+        padding: 0 20px;
+        height: 60vh;
+    }
+    .Portfolio-hero h1 {
+        font-size: 60px;
+
+    }
+    .Portfolio-hero hr {
+        margin-top: 100px;
+        width: 50px;
+        margin-bottom: 5px;
+        margin-left: -10px;
+    }
+
+    .Portfolio-heading h3 {
+        font-size: var(--h6);
+        margin-left: -10px;
+    }
+    .buttonBox {
+        width: 100px;
+        font-size: 1.4rem;
+    }
+    .btnConHeader {
+        margin-right: -10px;
+    }
+    .Gallery {
+        padding: 0 20px;
+    }
+    .Gallery img {
+        width: 150px;
+        height: 150px;
+    }
+    .find-me {
+        margin-left: 10px;
+    }
+    .lineF {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .logo-Icon {
+        margin-left:-10px;
+    }
+    .bx-menu {
+        margin-left: 115px;
+    }
+    .navbar {
+        margin-left: 135px;
+    }
+    .Portfolio-hero h1 {
+        margin-bottom: 100px;
+    }
+
+    .Portfolio-hero hr {
+        display: none;
+    }
+    .Portfolio-heading {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .btnConHeader {
+        margin-bottom: 50px;
+        margin-left: -20px;
+    }
+    .Gallery {
+        padding-left: 60px;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+    .Gallery img {
+        width: 200px;
+        height: 200px;
+    }
+    .lineF {
+        width: 50px;
+    }
+    .find-me {
+
+        width: 250px;
+        margin-left: 15px;
+    }
+    .find-me img {
+        width: 20px;
+        height: 20px;
+    }
+    .contact-footer {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+/****************************KEYFRAMES***********************************/
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes floatText {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-24px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
