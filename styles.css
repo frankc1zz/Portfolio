@@ -1937,7 +1937,14 @@ margin-left: 50px;
         margin-left: 160px;
     }
     .services {
-        padding-left: 25px;
+        padding-left:0;
+
+    }
+    .services-content h2 {
+     margin-left: -40px;
+    }
+    .services-content {
+        padding-left: 40px;
     }
     .works-content {
         margin-left: 30px;
@@ -2092,7 +2099,7 @@ margin-left: 50px;
         padding-left: 0;
     }
     .services-box {
-        margin-left: 70px
+        margin-left: 35px
     }
 
     .line-Vertical2 {
@@ -2227,7 +2234,7 @@ margin-left: 50px;
         padding-right: 0;
     }
     .services-box {
-        margin-left: 45px;
+        margin-left: 5px;
     }
 
     .line-Vertical2 {
