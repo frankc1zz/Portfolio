@@ -1926,6 +1926,33 @@ margin-left: 50px;
     }
 }
 
+@media screen and (max-width: 414px) {
+    .home-content .btnCon {
+        margin-left: 10px;
+    }
+    .line-Vertical1 {
+        margin-left: 160px;
+    }
+    .line-Vertical2 {
+        margin-left: 160px;
+    }
+    .services {
+        padding-left: 25px;
+    }
+    .works-content {
+        margin-left: 30px;
+    }
+    .works-box {
+        margin-left: 30px;
+    }
+    .line-Vertical {
+        margin-left: 160px;
+    }
+    .line-vertical3 {
+        margin-left: 160px;
+    }
+}
+
 
 @media screen and (min-width: 375px) and (max-width: 519px) {
     .navbar {
@@ -1953,14 +1980,14 @@ margin-left: 50px;
         margin-left: 150px;
     }
     .services-box {
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     .line-Vertical2 {
         margin-left: 150px;
     }
     .works {
-        padding-left: 50px;
+        padding-left: 30px;
     }
     .works-content {
 
@@ -2043,6 +2070,7 @@ margin-left: 50px;
     }
 }
 
+
 @media screen and (max-width:374px) {
     .bx-menu {
         margin-left: 140px;
@@ -2061,10 +2089,10 @@ margin-left: 50px;
         margin-top: -200px;
     }
     .services {
-        padding-left: 30px;
+        padding-left: 0;
     }
     .services-box {
-        margin-left: 40px
+        margin-left: 70px
     }
 
     .line-Vertical2 {
@@ -2072,13 +2100,12 @@ margin-left: 50px;
     }
     .works-content {
         width: 100%;
-        margin-left: 10px;
     }
     .works-box {
         width: 250px;
         height: 250px;
+        margin-left: -10px;
     }
-
     .line-Vertical {
         margin-left: 150px;
     }
@@ -2133,7 +2160,6 @@ margin-left: 50px;
 }
 
 @media screen and (max-width: 320px) {
-
     .btnCon {
         width: 220px;
     }
@@ -2196,23 +2222,29 @@ margin-left: 50px;
     .line-Vertical1 {
         margin-left: 125px;
     }
+    .services {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .services-box {
-        margin-left: 15px;
+        margin-left: 45px;
     }
 
     .line-Vertical2 {
         margin-left: 125px;
     }
     .works {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding:50px 30px;
+
     }
     .works-content {
-        width: 280px;
+        width: 150px;
+        margin-left: 50px;
     }
     .works-container {
         width: 200px;
         margin-left: 40px;
+
     }
     .works-box {
         width: 200px;

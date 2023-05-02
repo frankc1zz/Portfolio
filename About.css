@@ -792,6 +792,15 @@ margin-left: 50px;
     }
     .AboutMe-Text{
         width: 100%;
+        margin-left: -20px;
+    }
+    .AboutMe-Text h5 {
+        font-size: var(--h6);
+    }
+
+    .AboutMe-Bodytext {
+        width: 350px;
+        margin-left: -15px;
     }
 
     .AboutMe-Profile img {
@@ -815,8 +824,12 @@ margin-left: 50px;
         margin-left: 110px;
         width: 75px;
     }
-    .lineA {
-        margin-left: 100px;
+    .AboutMe-Page .lineA {
+        margin-left: 120px;
+    }
+
+    .Exp-content .lineA {
+        margin-left: 120px;
     }
     .Exp-content {
         padding-left: 20px;
@@ -826,7 +839,7 @@ margin-left: 50px;
         font-size: var(--h6);
     }
     .Exp-lists h3 {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
     .line-VerticalSocial {
         margin-left: 160px;
@@ -875,6 +888,9 @@ margin-left: 50px;
     .AboutMe-Text h5 {
         font-size: var(--h6);
     }
+    .AboutMe-Profile img {
+        margin-left: 20px
+    };
     .AboutMe-Bodytext {
         margin-top: -250px;
         width: 300px;
@@ -902,8 +918,8 @@ margin-left: 50px;
         margin-left: 90px;
     }
 
-    .lineA {
-        margin-left: 75px;
+    .Exp-content .lineA {
+        margin-left: 90px;
     }
     .Exp-content {
         padding-left: 40px;
@@ -957,7 +973,7 @@ margin-left: 50px;
     }
     .AboutMe-Profile img {
         width: 80vw;
-        margin-left: -15px;
+        margin-left: -10px;
     }
     .AboutMe-Bodytext {
         width: 260px;
