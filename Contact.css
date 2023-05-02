@@ -520,7 +520,7 @@ textarea:focus {
         margin: 3rem;
     }
     .bx-menu {
-        margin-left: 450px;
+        margin-left: 570px;
     }
     #menu-icon {
         display: block;
@@ -556,7 +556,7 @@ textarea:focus {
     }
     .contactme-input .btnCon {
         margin-top: 292px;
-
+        width: auto;
     }
     .lineF {
         margin-left: 200px;

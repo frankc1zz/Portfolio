@@ -387,6 +387,9 @@ p {
     .Portfolio-svg {
         display: none;
     }
+    .Portfolio-hero {
+        height: 50vh;
+    }
     .btnConHeader {
         width: auto;
         margin-right: 10px;
@@ -404,6 +407,9 @@ p {
         margin-left: 100px;
     }
 
+    .Portfolio-hero {
+        height: 90vh;
+    }
     .Portfolio-hero h3 {
         margin-left: -50px;
     }

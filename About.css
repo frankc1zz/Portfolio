@@ -1004,8 +1004,9 @@ margin-left: 50px;
         height: 65px;
     }
 
-    .lineA {
+    .Exp-content .lineA {
         margin-top: 150px;
+        margin-left: 80px;
     }
     .Exp-content {
         padding-left: 30px;
