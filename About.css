@@ -536,6 +536,7 @@ margin-left: 50px;
     }
 }
 
+
 @media screen and (max-width:1280px) {
     .line-VerticalAbout {
         margin-left: 600px;
@@ -551,6 +552,27 @@ margin-left: 50px;
     }
     .line-VerticalSocial {
         margin-left: 560px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+
+    .lineS {
+        margin-left: 200px;
+    }
+    .line-VerticalAbout {
+        margin-left: 530px;
+    }
+    .line-VerticalSocial {
+        margin-left: 530px;
+    }
+    .AboutMe-Profile img {
+        margin: 0;
+        padding: 0;
+    }
+    .AboutMe-Profile {
+        margin-left: 250px;
+        margin-top: -300px;
     }
 }
 
@@ -574,16 +596,35 @@ margin-left: 50px;
     }
     .AboutMe-Page {
         padding: 0 100px;
+        height: auto;
+    }
+    .AboutMe-Body {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .AboutMe-Bodytext {
+        width: auto;
+        margin-top: 30px;
+    }
+    .AboutMe-Profile {
+        width: auto;
+        height: auto;
+        margin: 0;
+        margin-top: 100px;
     }
     .AboutMe-Profile img {
         width: 40vw;
-        padding-right: 20px;
-        padding-left: 50px;
+        padding: 0;
+        margin: 0;
     }
+
     .line-VerticalAbout {
         margin-top: 1000px;
         margin-left: 450px;
     }
+
+
     .line-VerticalSocial {
         margin-left: 450px;
     }
@@ -594,6 +635,8 @@ margin-left: 50px;
     .Exp-content {
         padding: 0 100px;
     }
+
+
     .Exp-lists h3 {
         font-size: var(--h4)
 
@@ -665,7 +708,7 @@ margin-left: 50px;
         width: 100%;
     }
     .AboutMe-Profile {
-        width: 100%;
+        width: auto;
         margin-top: 100px;
     }
     .AboutMe-Profile img {
@@ -720,22 +763,34 @@ margin-left: 50px;
         padding-right: 50px;
     }
     .AboutMe-Content {
-        width: 400px;
+        width: 420px;
     }
     .AboutMe-Page .lineA {
         margin-left: 140px;
     }
+    .AboutMe-Body {
+        margin-top: 0;
+    }
     .AboutMe-Text {
         text-align: center;
     }
+    .AboutMe-Bodytext {
+        margin-top: 0;
+    }
+    .AboutMe-Bodytext h4 {
+        margin-top: 100px;
+    }
     .AboutMe-Profile {
+        width: auto;
+        height: auto;
+        margin-top: 100px;
         padding-left: 0;
         padding-right: 0;
     }
     .AboutMe-Profile img {
-        margin-left: 30px;
-        margin-right: 0;
-        width: 60vw;
+
+        margin: 0;
+        width: 40vw;
     }
     .line-about {
         width: 300px;
@@ -787,12 +842,18 @@ margin-left: 50px;
     }
 
     .AboutMe-Page {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 50px
+    }
+    .AboutMe-Page hr {
+        padding: 0;
+        margin-left: 0;
+    }
+    .AboutMe-Content {
+        width: 320px;
     }
     .AboutMe-Text{
         width: 100%;
-        margin-left: -20px;
+        margin-left: 0;
     }
     .AboutMe-Text h5 {
         font-size: var(--h6);
@@ -802,9 +863,14 @@ margin-left: 50px;
         width: 350px;
         margin-left: -15px;
     }
+    .AboutMe-Profile {
+        width: auto;
+        height: auto;
+    }
 
     .AboutMe-Profile img {
-        margin-left: 60px;
+        margin-left: 0;
+        width: 50vw;
     }
     .AboutMe-SocialM {
         width: 300px;
@@ -871,7 +937,8 @@ margin-left: 50px;
     }
     .AboutMe-Page {
         width: auto;
-        padding:0 30px;
+        padding:50px;
+        height: auto;
     }
 
     .AboutMe-Page .lineA {
@@ -881,18 +948,30 @@ margin-left: 50px;
         padding: 0;
         width: 100%;
     }
+
+    .AboutMe-Body {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
+    }
     .AboutMe-Text {
-        margin-left: 60px;
-        width: 200px;
+        margin-left: 0;
+        width: auto;
     }
     .AboutMe-Text h5 {
         font-size: var(--h6);
     }
+    .AboutMe-Profile {
+        margin-top: 100px;
+
+    }
     .AboutMe-Profile img {
-        margin-left: 20px
-    };
+        margin-left: 0;
+        width: 250px;
+    }
     .AboutMe-Bodytext {
-        margin-top: -250px;
+        margin: 0;
         width: 300px;
     }
     .AboutMe-Bodytext h4 {
@@ -906,6 +985,10 @@ margin-left: 50px;
     }
     .line-about {
         width: 100px;
+        margin-top: 50px;
+    }
+    .AboutMe-educ h4 {
+        margin-top: 50px;
     }
     .line-VerticalAbout {
         margin-left: 150px;
@@ -962,21 +1045,24 @@ margin-left: 50px;
     .navbar {
         margin-left: 140px;
     }
+    .AboutMe-Page {
+        padding: 40px;
+    }
     .AboutMe-Page .lineA {
         margin-left: 70px;
     }
     .AboutMe-Text {
-        margin-left: 30px;
+        margin-left: 0;
     }
     .AboutMe-Profile {
-        margin-left: -10px;
+        margin-left: 0;
     }
     .AboutMe-Profile img {
-        width: 80vw;
-        margin-left: -10px;
+        width: 60vw;
+        margin-left: 0;
     }
     .AboutMe-Bodytext {
-        width: 260px;
+        width: 240px;
     }
     .AboutMe-Bodytext h4 {
         font-size: 2rem;
@@ -1004,13 +1090,16 @@ margin-left: 50px;
         height: 65px;
     }
 
+    .AboutMe-Exp {
+        padding:0;
+    }
     .Exp-content .lineA {
         margin-top: 150px;
-        margin-left: 80px;
+        margin-left: 70px;
     }
     .Exp-content {
         padding-left: 30px;
-        padding-right: 10px;
+        padding-right: 30px;
     }
     .Exp-lists {
         width: 280px;
@@ -1024,8 +1113,9 @@ margin-left: 50px;
     .line-VerticalSocial {
         margin-left: 130px;
     }
- .LineSkill {
+    .LineSkill {
     margin-top: 20PX;
+
     }
     .AboutMe-SocialM {
         height: auto;
