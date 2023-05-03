@@ -447,16 +447,18 @@ textarea:focus {
 @media screen and (max-width:1024px) {
 
 
-
+    .contactme-content {
+        width: 300px;
+    }
     .contact-form, input {
-        width: 370px;
+        width: 350px;
         padding-left: 30px;
     }
     .contact-form, textarea {
-        width: 370px;
+        width: 350px;
     }
     .find-me {
-        margin-left: -100px;
+        margin-left: -150px;
     }
 }
 
