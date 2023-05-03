@@ -432,7 +432,9 @@ textarea:focus {
 @media screen and (max-width: 1180px) {
     .contactme-content {
         border: 1px solid red;
+        padding-left: 50px;
     }
+    
 }
 
 @media screen and (max-width: 1004px) {
@@ -447,8 +449,17 @@ textarea:focus {
         height: 100vh;
 
     }
-
-
+    
+    .contact-form, input {
+        height: 90px;
+        width: 370px;
+        padding-left: 30px;
+        font-size: 16px;
+    }
+    .contact-form, textarea {
+        width: 370px;
+    }
+}
     .contact-page h1 {
         margin-top: 200px;
         padding-top: 0;
