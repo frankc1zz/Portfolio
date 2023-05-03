@@ -433,6 +433,12 @@ textarea:focus {
     .contactme-content {
         border: 1px solid red;
         padding-left: 50px;
+        width:300px ;
+
+    }
+
+    .find-me {
+        margin-left: 100px;
     }
     
 }
