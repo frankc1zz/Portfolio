@@ -443,6 +443,26 @@ textarea:focus {
     
 }
 
+
+@media screen and (max-width:1024px) {
+
+
+
+    .contact-form, input {
+        width: 370px;
+        padding-left: 30px;
+    }
+    .contact-form, textarea {
+        width: 370px;
+    }
+    .find-me {
+        margin-left: -100px;
+    }
+}
+
+
+
+
 @media screen and (max-width: 1004px) {
 
 
