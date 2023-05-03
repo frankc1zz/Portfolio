@@ -431,25 +431,20 @@ textarea:focus {
 
 @media screen and (max-width: 1180px) {
     .contactme-content {
-
         padding-left: 50px;
         width:350px ;
-
     }
-
     .find-me {
         margin-left: 100px;
     }
-    
+   
 }
 
 
 @media screen and (max-width:1024px) {
 
-
     .contactme-content {
         width: 300px;
-        border: 1px solid red;
     }
     .contact-form, input {
         width: 350px;
@@ -496,7 +491,7 @@ textarea:focus {
         margin-top: 200px;
         margin-right: 0;
         margin-left: 150px;
-        width: 300px;
+        width: 280px;
 
     }
     .contactme-content hr {
