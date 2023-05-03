@@ -600,6 +600,11 @@ textarea:focus {
         display: block;
         margin-left: -29px;
     } 
+    .contactme-content {
+        border: 1px solid red;
+        width: 200px;
+        margin-left: 200px;
+    }
     .contactme-content h2 {
         font-size: 3rem;
         width: 250px;
