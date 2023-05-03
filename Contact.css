@@ -492,6 +492,7 @@ textarea:focus {
         margin-right: 0;
         margin-left: 200px;
         width: 200px;
+        border: 1px solid red;
 
     }
     .contactme-content hr {
