@@ -554,23 +554,24 @@ textarea:focus {
     .logo {
         display: none;
     }
+
     .logo-Icon {
         display: block;
-        margin-top: 10px;
-        margin-left: -50px;
+        margin-top:  10pxS;
     }
     .navbar {
         position: fixed;
         width: 25%;
-        margin-left: 520px;
+        margin-left: 520px;   
         top: -3rem;
         left: 18px;
-        padding: 25px 0;
+        padding:  25px 0;
         padding: 1rem 3%;
         background: var(--bg-color);
-        border-top: .1rem solid var(--main-color);
-        box-shadow: 0 .5rem 1rem var(--main-color);
+        border-top:  1.rem solid var(--main-color);
+        box-shadow: 0 0.5 1rem var(--main-color);
         display: none;
+
     }
     .navbar.active {
         display: block;
