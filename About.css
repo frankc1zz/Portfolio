@@ -1034,6 +1034,12 @@ margin-left: 50px;
     }
 }
 
+@media screen and (max-width: 374px) {
+    .AboutMe-Profile img {
+        margin-left: -25px;
+    }
+}
+
 @media screen and (max-width: 320px) {
 
     .logo-Icon {
