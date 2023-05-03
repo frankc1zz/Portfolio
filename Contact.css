@@ -429,6 +429,11 @@ textarea:focus {
     }
 }
 
+@media screen and (max-width: 1180px) {
+    .contactme-content {
+        border: 1px solid red;
+    }
+}
 
 @media screen and (max-width: 1004px) {
 
