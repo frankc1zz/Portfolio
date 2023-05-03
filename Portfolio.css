@@ -390,6 +390,9 @@ p {
     .Portfolio-hero {
         height: 50vh;
     }
+    .Gallery {
+        column-gap: 2.2rem;
+    }
     .btnConHeader {
         width: auto;
         margin-right: 10px;
