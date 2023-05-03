@@ -1320,6 +1320,43 @@ margin-left: 50px;
     }
 }
 
+
+@media screen and (max-width:1180px) {
+ 
+    .home {
+        padding: 100px;
+    }
+    .home-content2 .contentbox {
+        width: 270px;
+        height: 360px;
+    }
+    .line-Vertical1 {
+        margin-left: 530px;
+    }
+    .line-Vertical2 {
+        margin-left: 530px;
+    }
+    .line-Vertical3 {
+        margin-left: 530px;
+    }
+    .line-Vertical {
+        margin-left: 530px;
+    }
+    .graphicsvg {
+        margin-top: -300px;
+    }
+    .btnConHeader {
+        width: auto;
+    }
+    .services-svg {
+        margin-left: -90px;
+    }
+    .about {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
 @media screen and  (max-width: 1004px) {
     svg {
         display: none;
@@ -1331,12 +1368,12 @@ margin-left: 50px;
         margin-left: 60px;
     }
     .home {
-        height: 100vh;
+        height: 80vh;
         padding: 0 123px;
     }
     .home-content hr {
         display: block;
-        margin-top: -50px;
+        margin-top: 50px;
     }
     .home-content {
         text-align: left;
@@ -1421,8 +1458,8 @@ margin-left: 50px;
         grid-template-columns: repeat(2,1fr);
     }
     .works-box {
-        height: 250px;
-        width: 300px;
+        height: 350px;
+        width: 350px;
     }
     .line-Vertical {
         margin-left: 452px;
@@ -1463,10 +1500,6 @@ margin-left: 50px;
     .contact button {
         margin-top: 80px;
     }
-
-
-/***************ContactPage-HTML*******/
-
 
 
 }
@@ -1742,7 +1775,7 @@ margin-left: 50px;
         margin-left: 270px;
     }
     .home {
-        height: 90vh;
+        height: 70vh;
         margin-top: 10px;
         padding: 0 50px;
     }
@@ -1774,7 +1807,7 @@ margin-left: 50px;
     }
     .home2 {
         height: auto;
-        margin-top: 600px;
+        margin-top: 300px;
     }
     .home-content2 {
         margin-top: 50px;
@@ -1859,6 +1892,7 @@ margin-left: 50px;
         padding: 100px 100px 100px 50px;
         height: auto;
     }
+
     .about-image img {
         width: 280px;
         height: 290px;
@@ -1867,7 +1901,7 @@ margin-left: 50px;
     }
     .about-content  {
         width: 100% ;
-        margin-top: 80px;
+        margin-top: 40px;
         margin-left: 40px;
     }
     .about-content h2 {
@@ -1927,117 +1961,62 @@ margin-left: 50px;
 }
 
 @media screen and (max-width: 414px) {
+    .bx-menu {
+        margin-left: 180px;
+    }
+    .navbar {
+        margin-left:  195px;
+    }
     .home-content .btnCon {
         margin-left: 10px;
     }
     .line-Vertical1 {
-        margin-left: 160px;
+        margin-left: 170px;
     }
     .line-Vertical2 {
-        margin-left: 160px;
+        margin-left: 170px;
     }
     .services {
         padding-left:0;
-
     }
     .services-content h2 {
      margin-left: -40px;
     }
+    .services-content h5 {
+        margin-left: -40px;
+    }
     .services-content {
         padding-left: 40px;
     }
-    .works-content {
-        margin-left: 30px;
-    }
-    .works-box {
-        margin-left: 30px;
-    }
-    .line-Vertical {
-        margin-left: 160px;
-    }
-    .line-vertical3 {
-        margin-left: 160px;
-    }
-}
-
-
-@media screen and (min-width: 375px) and (max-width: 519px) {
-    .navbar {
-        margin-left: 165px;
-        width: 180px;
-    }
-    .navbar a {
-        font-size: 1.8rem;
-        text-align: center;
-    }
-    .bx-menu {
-        margin-left: 160px;
-    }
-    .home {
-        margin-top: 10px;
-        height: 70vh;
-    }
-    .home2 {
-        margin-top: 400px;
-    }
-    .home-content .btnCon {
-        margin-left: -10px;
-    }
-    .line-Vertical1 {
-        margin-left: 150px;
-    }
     .services-box {
-        margin-left: 50px;
-    }
-
-    .line-Vertical2 {
-        margin-left: 150px;
+    margin: 50px;
     }
     .works {
-        padding-left: 30px;
+        padding: 50px;
     }
-    .works-content {
 
-        width: 235px;
-    }
-    .works-container {
-        width: 270px;
+    .works-content {
+        margin-left: 0;
+
+        width: auto;
     }
     .works-box {
-        width: 265px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
+        margin-left: 10px;
     }
     .line-Vertical {
-        margin-left: 150px;
+        margin-left: 170px;
     }
-    .about {
-        height: 120vh;
+    .line-vertical3 {
+        margin-left: 170px;
     }
-    .about-image {
-        margin-left: 50px;
-        margin-top: -20px;
-        height: auto;
+    .btnConAbout {
+        margin-left: -30px;
     }
-    .about-image img {
-        margin: 0;
-    }
-    .about-content {
-        width: 300px;
-    }
-    .about-content h2 {
-        margin-top: -50px;
-    }
-    .about-content .about-body {
-        font-size: 1.7rem;
-    }
-    .about-content .about-body2 {
-        font-size: 1.7rem;
-    }
-    .line-Vertical3 {
-        margin-left: 150px;
-    }
+
     .contact {
-        height: 40vh;
+        height:auto;
         padding-top: 150px;
     }
     .contact-content {
@@ -2060,6 +2039,136 @@ margin-left: 50px;
     }
     .contact-content button {
         margin-top: 30px;
+        margin-bottom: 20PX;
+    }
+    .footer {
+        height: 5vh;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer p {
+        margin-top: -10px;
+    }
+    .footer-iconTop {
+        margin-top: -15px;
+    }
+    .footer-iconTop a i {
+        font-size: 1.6rem;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+    .navbar {
+        margin-left: 165px;
+        width: 180px;
+    }
+    .navbar a {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .bx-menu {
+        margin-left: 160px;
+    }
+    .home {
+        margin-top: 100px;
+        height: 50vh;
+    }
+    .home2 {
+        margin-top: 400px;
+    }
+    .home-content .btnCon {
+        margin-left: -10px;
+    }
+    .line-Vertical1 {
+        margin-left: 150px;
+    }
+    .services-content {
+        padding-left: 25px;
+    }
+    .services-content h5 {
+        margin-left: -40px;
+    }
+
+    .services-box {
+        margin-left: 50px;
+    }
+
+    .line-Vertical2 {
+        margin-left: 150px;
+    }
+    .works {
+        padding-left: 50px;
+        margin-bottom: 50px;
+    }
+    .works-content {
+        width: auto;
+    }
+    .works-container {
+        width: auto;
+    }
+    .works-box {
+        width: 265px;
+        height: 250px;
+    }
+    .line-Vertical {
+        margin-left: 150px;
+    }
+    .about {
+        height: auto;
+        padding: 100px 50px;
+    }
+    .about-image {
+
+        height: auto;
+    }
+    .about-image img {
+        margin: 0;
+    }
+    .about-content {
+        width: 300px;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .about-content h2 {
+        margin-top: -50px;
+    }
+    .about-content .about-body {
+        font-size: 1.7rem;
+    }
+    .about-content .about-body2 {
+        font-size: 1.7rem;
+    }
+    .line-Vertical3 {
+        margin-left: 150px;
+    }
+    .contact {
+        height:auto;
+        margin-top: 0;
+        padding-top: 100px;
+    }
+    .contact-content {
+        margin-top: -70px;
+        flex-direction: column;
+    }
+    .social-medialinks {
+        width: 80px;
+  
+        height: auto;
+    }
+    .social-medialinks .bx {
+        font-size: 2.6rem;
+        margin-top: 30px;
+    }
+    .footer-line h3 {
+        font-size: 2.6rem;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .contact-content button {
+        margin-top: 30px;
+        margin-bottom: 20PX;
     }
     .footer {
         height: 5vh;
@@ -2092,26 +2201,47 @@ margin-left: 50px;
     .home-content .btnCon {
         margin-left: -15px;
     }
+    .home2 {
+        margin-top: 500px;
+    }
     .home-content2 {
         margin-top: -200px;
     }
     .services {
+        padding: 50px 70px;
+
+    }
+    .services-content {
         padding-left: 0;
     }
+    .services-content h2 {
+        margin-left: 0;
+    }
+    .services-content h5 {
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
     .services-box {
-        margin-left: 35px
+        margin: 0;
+        width: 240px;
     }
 
+    .services-box-container h5 {
+        margin-left: 0;
+    }
     .line-Vertical2 {
         margin-left: 150px;
     }
     .works-content {
         width: 100%;
     }
+    .works-container {
+        width: auto;
+    }
     .works-box {
-        width: 250px;
+        width: 270px;
         height: 250px;
-        margin-left: -10px;
+        margin-left: 0;
     }
     .line-Vertical {
         margin-left: 150px;
@@ -2120,14 +2250,15 @@ margin-left: 50px;
         margin-top: -50px;
     }
     .btnConAbout {
-        margin-left: -60px;
+        margin-left: -20px;
+        width: auto;
     }
     .line-Vertical3 {
         margin-left: 150px;
     }
 
     .contact {
-        height: 50vh;
+        height: auto;
     }
     .contact-content {
         margin-top: -70px;
@@ -2190,8 +2321,8 @@ margin-left: 50px;
     }
 
     .home {
-        margin-top: 10px;
-        height: 70vh;
+        margin-top: 100px;
+        height: 50vh;
     }
     .home-content h3 {
         font-size: 3rem;
@@ -2208,7 +2339,7 @@ margin-left: 50px;
     }
 
     .home2 {
-        margin-top: 300px;
+        margin-top: 200px;
     }
     .home-content2 {
         margin-top: 50px;
@@ -2230,32 +2361,37 @@ margin-left: 50px;
         margin-left: 125px;
     }
     .services {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 50px;
     }
     .services-box {
-        margin-left: 5px;
+        margin-left: 0;
+        width: 220px;
     }
-
+    .services-box-container {
+        padding: 0;
+    }
     .line-Vertical2 {
         margin-left: 125px;
     }
     .works {
-        padding:50px 30px;
+        padding:50px;
 
     }
     .works-content {
-        width: 150px;
-        margin-left: 50px;
+        width: 220px;
+        margin-left:0;
+    }
+    .works-content .heading {
+        text-align: center;
     }
     .works-container {
-        width: 200px;
-        margin-left: 40px;
+        width: 220px;
+        margin-left:0;
 
     }
     .works-box {
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
         margin-bottom: 10px;
     }
 
@@ -2273,28 +2409,26 @@ margin-left: 50px;
     .works-layer a i {
         font-size: 1.4rem;
     }
-    
-    
-
     .line-Vertical {
         margin-left: 125px;
     }
     .about {
-        height: 110vh;
+        height: 100vh;
+        padding: 50px;
     }
     .about-image {
         width: 210px;
         height: 225px;
-        margin-left: 40px;
+        margin-left:0;
     }
     .about-image img{
-        width: 200px;
-        height: 220px;
+        width: 210px;
+        height: 225px;
         margin: 0;
         padding: 0;
     }
     .about-content {
-        width: 250px;
+        width: 225px;
         height: 90vh;
     }
     .about-content h2 {
@@ -2310,8 +2444,8 @@ margin-left: 50px;
         font-size: 1.6rem;
     }
     .btnConAbout {
-        margin-top: -50px;
-        margin-left: -15px;
+        margin-top: 50px;
+        margin-left: -30px;
     }
     .line-Vertical3 {
         margin-left: 125px;
