@@ -87,7 +87,7 @@ p {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    border-bottom: 1px solid var(--second-bg-color);
+    border-bottom: 1px solid red solid var(--second-bg-color);
 }
 .logo-Icon {
     display: none;
@@ -170,7 +170,7 @@ p {
 
 .button2 {
     color:var(--text-color);
-    border: 1px solid var(--text-color);
+    border: 1px solid red solid var(--text-color);
     background-color: transparent;
     animation: slideLeft 1s ease forwards;
     animation-delay: .3S;
@@ -179,7 +179,7 @@ p {
 .button2:hover {
     color: var(--main-color);
     background: var(--bg-color);
-    border: 1px solid var(--main-color);
+    border: 1px solid red solid var(--main-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
 
@@ -449,6 +449,7 @@ textarea:focus {
 
     .contactme-content {
         width: 300px;
+        border: 1px solid red;
     }
     .contact-form, input {
         width: 350px;
