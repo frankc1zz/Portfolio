@@ -408,8 +408,8 @@ p {
 
 @media screen and (max-width: 1024px) {
     .download-CV {
-        margin-right: 600px;
-    }
+        width:auto;
+    }   
     .navbar {
         margin-left: 120px;
     }
@@ -427,16 +427,23 @@ p {
 }
 
 @media screen and (max-width:1004px) {
-
     .logo {
         margin-left: -50px;
     }
     .navbar-parent {
-        width: 700px;
+        width: 900px;
         margin-right: 100px;
         margin-left: 100px;
     }
-
+    .navbar {
+        margin-left: 0;
+        margin-right: 0;
+        width: 500px;
+    }
+    .download-CV {
+        width: auto;
+        margin-right: 0;
+    }
     .Portfolio-hero {
         height: 90vh;
     }
