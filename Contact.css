@@ -430,12 +430,18 @@ textarea:focus {
 }
 
 @media screen and (max-width: 1180px) {
+    .contact-page {
+        height: 180vh;
+    }
     .contactme-content {
-        padding-left: 50px;
+        padding-left: 100px;
         width:350px ;
     }
     .find-me {
         margin-left: 100px;
+    }
+    .contact-footer {
+        margin-top: 300px;
     }
    
 }
@@ -473,6 +479,9 @@ textarea:focus {
     }
     .find-me {
         margin-left: 100px;
+    }
+    .contact-footer {
+        margin-top: 600px;
     }
 }
 
@@ -603,9 +612,12 @@ textarea:focus {
         display: block;
         margin-left: -29px;
     } 
+    .contact-page {
+        height: 100vh;
+    }
     .contactme-content {
         width: 200px;
-        margin-left: 150px;
+        margin-left: 100px;
     }
     .contactme-content h2 {
         font-size: 3rem;
@@ -641,7 +653,7 @@ textarea:focus {
     }
     
     .contact-footer {
-        margin-top: 450px;
+        margin-top: 300px;
         opacity: 60%;
     }
 }

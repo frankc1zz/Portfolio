@@ -364,6 +364,7 @@ p {
 .AboutMe-Profile {
     width: 50%;
     height: 50vh;
+
 }
 .AboutMe-Profile img {
     width: 30vw;
@@ -371,8 +372,8 @@ p {
     margin-left: 100px;
     margin-top: -150px;
     opacity: 60%;
-
-
+    position: relative;
+    z-index: 9999;
 }
 .ME-about-svg {
     width: 100%;
@@ -380,7 +381,6 @@ p {
     margin-left: -200px;
     position:absolute;
     text-align: right;
-    z-index: 4;
     overflow-x: hidden;
     animation: slideLeft 2s ease backwards;
 }
@@ -519,6 +519,7 @@ margin-left: 50px;
 .contact-footer {
     text-align: center;
     opacity: 32%;
+    font-size: 2rem;
 }
 
 
@@ -536,6 +537,11 @@ margin-left: 50px;
     }
 }
 
+@media screen and (max-width:1368px) {
+    .contact-footer {
+        font-size: 2rem;
+    }
+}
 
 @media screen and (max-width:1280px) {
     .line-VerticalAbout {
@@ -770,6 +776,9 @@ margin-left: 50px;
     }
     .AboutMe-SocialM {
         margin-left: 100px;
+    }
+    .contact-footer {
+        font-size: 1.6rem;
     }
 }
 
@@ -1058,6 +1067,9 @@ margin-left: 50px;
     .AboutMe-SocialM img {
         width: 30px;
         height: 30px;
+    }
+    .contact-footer {
+        font-size: 1.4rem;
     }
 }
 

@@ -397,9 +397,25 @@ p {
         width: auto;
         margin-right: 10px;
     }
+
+}
+@media screen and (max-width:1180px) {
+    .navbar {
+        width: 500px;
+        margin-left: 150px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
+    .download-CV {
+        margin-right: 600px;
+    }
+    .navbar {
+        margin-left: 120px;
+    }
+    .download-CV {
+        margin-right: 100px;
+    }
     .Gallery {
         padding: 100px 70px;
 
@@ -617,7 +633,7 @@ p {
     }
     .Portfolio-hero {
         padding: 0 20px;
-        height: 60vh;
+        height: 80vh;
     }
     .Portfolio-hero h1 {
         font-size: 60px;
