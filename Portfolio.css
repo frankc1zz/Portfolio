@@ -399,6 +399,17 @@ p {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .Gallery {
+        padding: 100px 70px;
+
+    }
+    .Gallery img {
+        width: 270px;
+        height: 270px;
+    }
+}
+
 @media screen and (max-width:1004px) {
 
     .logo {
@@ -581,7 +592,7 @@ p {
         font-size: 2rem;
     }
     .Gallery {
-        margin-top: -300px;
+        margin-top: -200px;
         padding-left: 20px;
     }
     .Gallery img {

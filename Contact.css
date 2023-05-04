@@ -429,12 +429,6 @@ textarea:focus {
     }
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:1024px) {
-    
-    
-}
-=======
 @media screen and (max-width: 1180px) {
     .contactme-content {
         padding-left: 50px;
@@ -449,38 +443,51 @@ textarea:focus {
 
 @media screen and (max-width:1024px) {
 
+    .contact-page {
+        height:170vh;
+    }
     .contactme-content {
         width: 300px;
+        margin-right: 0;
+    }
+    .contact-me-page {
+        padding: 0 70px;
+        display: flex ;
+        justify-content: space-between;
+
     }
     .contact-form, input {
         width: 350px;
         padding-left: 30px;
+        margin-left: 50px;
     }
     .contact-form, textarea {
         width: 350px;
+        margin-left: 50px;
+    }
+    .contactme-input button {
+        margin-left: 50px;
+    }
+    .contactme-input .btnCon {
+        margin-left: 250px;
     }
     .find-me {
-        margin-left: -200px;
+        margin-left: 100px;
     }
 }
 
 
 
 
->>>>>>> 67399a3e93c305087965bf8815b83f3c53221acd
 @media screen and (max-width: 1004px) {
-
 
     svg {
         display: none;
     }
-
     .contact-page {
         margin: 0;
         height: 100vh;
-
     }
-    
     .contact-form, input {
         height: 90px;
         width: 370px;
@@ -497,17 +504,13 @@ textarea:focus {
     .contactme-content {
         margin-top: 200px;
         margin-right: 0;
-        margin-left: 200px;
+        margin-left: 150px;
         width: 200px;
-
-
     }
     .contactme-content hr {
         margin-top: 50px;
         margin-left: -200px;
     }
-
-
     .contactme-content h2 {
         margin-left: -200px;
     }
@@ -515,26 +518,17 @@ textarea:focus {
         margin-left: -200px;
     }
 
-    .contact-form, input {
-        height: 90px;
-        width: 420px;
-        padding-left: 30px;
-        font-size: 16px;
-    }
-    .contact-form, textarea {
-        width: 420px;
-    }
-
-
     .contactme-input .btnCon {
         margin-top: 432px;
-        margin-left: 200px;
+        margin-left: 300px;
     }
-    
     .mail-me {
         margin-left: -200px;
     }
-
+    .mail-me h5 {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
     .contactme-input hr {
         margin-left: 70px;
         opacity:100%;
@@ -547,7 +541,6 @@ textarea:focus {
         font-weight: 900;
         color: var(--text-color);
     }
-    
     .contact-footer {
         margin-top: 450px;
         text-align: center;
@@ -564,7 +557,8 @@ textarea:focus {
 
     .logo-Icon {
         display: block;
-        margin-top:  10pxS;
+        margin-top:  10px;
+        margin-left: -20px;
     }
     .navbar {
         position: fixed;
@@ -592,7 +586,7 @@ textarea:focus {
         margin: 3rem;
     }
     .bx-menu {
-        margin-left: 570px;
+        margin-left: 500px;
     }
     #menu-icon {
         display: block;
@@ -611,7 +605,7 @@ textarea:focus {
     } 
     .contactme-content {
         width: 200px;
-        margin-left: 200px;
+        margin-left: 150px;
     }
     .contactme-content h2 {
         font-size: 3rem;
@@ -619,6 +613,9 @@ textarea:focus {
     }
     .contactme-content h5 {
         font-size: 2rem;
+    }
+    .contact-form {
+        margin-left: 0;
     }
 
     .contact-form, input {
@@ -632,6 +629,7 @@ textarea:focus {
     }
     .contactme-input .btnCon {
         margin-top: 292px;
+        margin-left: 200px;
         width: auto;
     }
     .lineF {
@@ -729,6 +727,9 @@ textarea:focus {
         width: auto;
         height: auto;
     }
+    .contact-form {
+        padding-left: 60px;
+    }
     .contact-form, input {
         height: 40px;
         width: 250px;
@@ -737,8 +738,13 @@ textarea:focus {
         width: 250px;
         height: 80px;
     }
+    .contactme-input button {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
     .contactme-input .btnCon {
         margin-top: 232px;
+        margin-left: 230px;
     }
     .lineF {
         display: none;
@@ -788,14 +794,14 @@ textarea:focus {
         padding-left: 0;
     }
     .contact-form {
-        padding-left: 70px;
+        padding-left: 20px;
         margin-left: 0;
     }
     .contact-form, textarea {
         margin-bottom: 20px;
     }
     .contact-form button {
-        margin-left: -25px;
+        margin-left: 25px;
     }
     .contactme-input .btnCon {
         margin-left: 200px;
@@ -841,19 +847,22 @@ textarea:focus {
         font-size: 1.4rem;
     }
 
- 
+    .contactme-input {
+        margin-top: 150px;
+    }
     .contactme-input .btnCon {
-        margin-left: 110px;
+        margin-left: 70px;
         width: 142px;
         margin-top: 330px;
     }
 
     .contact-form {
-        margin-left: 25px;
-        padding-left: 25px;
+
+        padding-left:0;
+        margin-right: 300px;
     }
     .contact-form button {
-        margin-left: 60px;
+        margin-left: 90px;
         margin-top: 30px;
 }
     .contactme-input {
@@ -887,6 +896,7 @@ textarea:focus {
     .mail-me {
     margin-top: 70px;
     }
+
     .contactme-input .btnCon {
         margin-left: 105px;
     }
@@ -894,7 +904,7 @@ textarea:focus {
         margin-left: 10px;
     }
     .contact-form button {
-        margin-left: 65px;
+        margin-left: 120px;
         margin-top: 30px;
 }
 
