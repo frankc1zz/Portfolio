@@ -400,14 +400,14 @@ p {
 
 }
 @media screen and (max-width:1180px) {
-    .navbar {
+    /* .navbar {
         width: 500px;
         margin-left: 150px;
-    }
+    } */
 }
 
 @media screen and (max-width: 1024px) {
-    .download-CV {
+    /* .download-CV {
         width:auto;
     }   
     .navbar {
@@ -415,7 +415,7 @@ p {
     }
     .download-CV {
         margin-right: 100px;
-    }
+    } */
     .Gallery {
         padding: 100px 70px;
 
@@ -431,19 +431,22 @@ p {
         margin-left: -50px;
     }
     .navbar-parent {
-        width: 900px;
-        margin-right: 100px;
-        margin-left: 100px;
+        width: 650px;
+        padding-top: 10px;
     }
-    .navbar {
-        margin-left: 0;
-        margin-right: 0;
-        width: 500px;
+    .navbar a {
+        font-size: 1.6rem;
+        margin-left: 3rem;
     }
     .download-CV {
-        width: auto;
         margin-right: 0;
+        margin-bottom: 10px;
     }
+    svg {
+        display: none;
+    }
+
+
     .Portfolio-hero {
         height: 90vh;
     }

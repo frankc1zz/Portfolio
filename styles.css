@@ -1421,14 +1421,28 @@ margin-left: 50px;
 }
 
 @media screen and  (max-width: 1004px) {
+
+
+    .navbar-parent {
+        width: 650px;
+        padding-top: 10px;
+    }
+    .navbar a {
+        font-size: 1.6rem;
+        margin-left: 3rem;
+    }
+    .btnConHeader {
+        margin-right: 100px;
+        margin-bottom: 10px;
+        width: auto;
+    }
     svg {
         display: none;
     }
+
+
     .header {
         padding: 2rem 3%;
-    }
-    .navbar a {
-        margin-left: 60px;
     }
     .home {
         height: 80vh;
@@ -1565,6 +1579,63 @@ margin-left: 50px;
     }
 
 
+}
+
+@media screen and (max-width:991px) {
+    .line-Vertical1 {
+        margin-left: 445px;
+    }
+    .line-Vertical {
+        margin-left: 445px;
+    }
+    .line-Vertical2 {
+        margin-left: 445px;
+    }
+    .line-Vertical3 {
+        margin-left: 445px;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+
+    .home-content .btnCon {
+        margin-left: 400px;
+    }
+    .home2 {
+        padding: 0;
+    }
+    .line-Vertical1 {
+        margin-left:370px ;
+    }
+    .line-Vertical {
+        margin-left:370px ;
+    }
+    .line-Vertical2 {
+        margin-left:370px ;
+    }
+    .line-Vertical3 {
+        margin-left:370px ;
+    }
+    .services {
+        padding: 100px 50px 0 50px;
+    }
+    .services-box-container {
+        width: 230px;
+    }
+    .works {
+        padding: 100px 50px 0 50px;
+    }
+    .about {
+        height: 100vh;
+        padding: 0 100px;
+    }
+    .about-image {
+        margin-top: -250px;
+    }
+    .about-content {
+        margin-top: -150px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1763,6 +1834,7 @@ margin-left: 50px;
         height: 400px;
         width: 500px;
         margin-bottom: 50px;
+        margin-left: 80px;
     }
     .line-Vertical {
         margin-left: 350px;
@@ -1771,12 +1843,16 @@ margin-left: 50px;
     }
     .about {
         margin-bottom: -40px;
-        padding: 0 100px;
+        padding: 0 70px;
         height: 90vh;
+        justify-content: space-between;
     }
     .about-image img {
         width: 280px;
         height: 290px;
+    }
+    .about-image {
+        margin-top: -150px;
     }
     .about-content  {
         width: 400px;
@@ -1796,7 +1872,8 @@ margin-left: 50px;
         font-size:  1.6rem;
     }
     .btnConAbout button {
-        margin-top: -30px;
+        margin-top: -20px;
+        margin-left: 160px;
     }
     .line-Vertical3 {
         margin-left: 350px;
@@ -1944,6 +2021,7 @@ margin-left: 50px;
         height: 300px;
         width: 380px;
         margin-bottom: 50px;
+        margin-left: 0;
     }
     .line-Vertical {
         margin-left: 220px;
@@ -2078,6 +2156,10 @@ margin-left: 50px;
     .line-vertical3 {
         margin-left: 170px;
     }
+
+    .about-image {
+        margin-top: -50px;
+    }
     .btnConAbout {
         margin-left: -30px;
     }
@@ -2187,7 +2269,7 @@ margin-left: 50px;
         padding: 100px 50px;
     }
     .about-image {
-
+        margin-top: 50px;
         height: auto;
     }
     .about-image img {
