@@ -1566,6 +1566,8 @@ margin-left: 50px;
 }
 
 @media screen and (max-width: 768px) {
+
+
     .logo {
         display: none;
     }
@@ -1752,7 +1754,9 @@ margin-left: 50px;
     }
     .works-container {
         grid-template-columns: repeat(1,1fr);
+        width: auto;  
     }
+
     .works-box {
         height: 400px;
         width: 500px;

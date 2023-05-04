@@ -575,6 +575,33 @@ margin-left: 50px;
         margin-top: -300px;
     }
 }
+@media screen and (max-width:1024px) {
+    .AboutMe-Page {
+        padding: 0 100px ;
+    }
+    .AboutMe-svg {
+        margin-left: -600px;
+    }
+    .ME-about-svg {
+        margin-left: -50px;
+    }
+
+    .AboutMe-Profile {
+        margin-left: 100px;
+    }
+    .lineS {
+        margin-left: 150px;
+    }
+    .line-VerticalAbout {
+        margin-left:  450px;
+    }
+    .line-VerticalSocial {
+        margin-left:  450px;
+    }
+    .Exp-content {
+        padding: 0 100px;
+    }
+}
 
 @media screen and (max-width: 1004px) {
 
