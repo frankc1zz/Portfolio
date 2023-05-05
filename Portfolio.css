@@ -477,6 +477,15 @@ p {
     }
 }
 
+@media screen and (max-width:860px) {
+
+    .Gallery {
+        padding: 0 30px;
+        row-gap: 25px;
+        column-gap: 25px;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .logo {
@@ -519,7 +528,7 @@ p {
         margin: 3rem;
     }
     .bx-menu {
-        margin-left: 520px;
+        margin-left: 580px;
         
     }
     #menu-icon {
@@ -557,7 +566,7 @@ p {
         width: auto;
     }
     .bx-menu {
-        margin-left: 320px;
+        margin-left: 400px;
     }
     .download-CVHidden {
         margin-left: -35px;
@@ -606,7 +615,7 @@ p {
 
 @media screen and (max-width: 414px) {
     .bx-menu {
-        margin-left: 220px;
+        margin-left: 320px;
     }
     .navbar {
         margin-left: 230px;
@@ -633,7 +642,7 @@ p {
         margin-left: -20px;
     }
     .bx-menu {
-        margin-left: 175px;
+        margin-left: 260px;
     }
     .navbar {
         margin-left: 190px;
@@ -689,7 +698,7 @@ p {
         margin-left:-10px;
     }
     .bx-menu {
-        margin-left: 115px;
+        margin-left: 190px;
     }
     .navbar {
         margin-left: 135px;

@@ -566,6 +566,17 @@ textarea:focus {
     }
 }
 
+@media screen and (max-width: 991px) {
+    .contact-form {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .contactme-input .btnCon {
+        margin-left: 180px;
+    }
+} 
+    
+
 @media screen and (max-width: 768px) {
 
     .logo {
@@ -586,8 +597,8 @@ textarea:focus {
         padding:  25px 0;
         padding: 1rem 3%;
         background: var(--bg-color);
-        border-top:  1.rem solid var(--main-color);
-        box-shadow: 0 0.5 1rem var(--main-color);
+        border-top: .1rem solid var(--main-color);
+        box-shadow: 0 .5rem 1rem var(--main-color);
         display: none;
 
     }
@@ -649,7 +660,7 @@ textarea:focus {
     }
     .contactme-input .btnCon {
         margin-top: 292px;
-        margin-left: 200px;
+        margin-left: 170px;
         width: auto;
     }
     .lineF {
@@ -657,9 +668,16 @@ textarea:focus {
     }
     .find-me {
         margin-top: 50px;
-        margin-left: -70px;
+        margin-left: 50px;
+        width: 300px;
     }
-    
+    .find-me h5 {
+        font-size: 1.8rem;
+    }
+    .find-me img {
+        width: 30px;
+        height: 30px;
+    }
     .contact-footer {
         margin-top: 300px;
         opacity: 60%;
