@@ -400,14 +400,14 @@ p {
 
 }
 @media screen and (max-width:1180px) {
-    /* .navbar {
+    .navbar {
         width: 500px;
         margin-left: 150px;
-    } */
+    }
 }
 
 @media screen and (max-width: 1024px) {
-    /* .download-CV {
+    .download-CV {
         width:auto;
     }   
     .navbar {
@@ -415,7 +415,7 @@ p {
     }
     .download-CV {
         margin-right: 100px;
-    } */
+    }
     .Gallery {
         padding: 100px 70px;
 
@@ -612,6 +612,25 @@ p {
     }
 
 }
+@media screen and (max-width:425px) {
+    .bx-menu {
+        margin-left: 320px;
+    }
+    .Portfolio-heading h3 {
+        font-size: 2rem;
+    }
+    .Gallery {
+
+        column-gap: 1.4rem;
+    }
+    .Gallery img {
+        width: 175px;
+        height: 175px;
+    }
+
+}
+
+
 
 @media screen and (max-width: 414px) {
     .bx-menu {

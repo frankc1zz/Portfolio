@@ -590,10 +590,7 @@ margin-left: 50px;
         width: auto;
         margin-right: 0;
     }
-    .download-CV {
-        width: auto;
-        margin-left: 30px;
-    }
+
     .AboutMe-Page {
         padding: 0 100px ;
     }
@@ -627,16 +624,18 @@ margin-left: 50px;
 
 
     .navbar-parent {
-        width: 650px;
+        width: 600px;
         padding-top: 10px;
     }
+ 
     .navbar a {
         font-size: 1.6rem;
         margin-left: 3rem;
     }
-    .download-CV {
-        margin-right: 50px;
+    .btnConHeader {
+        margin-right: -20px;
         margin-bottom: 10px;
+        width: auto;
     }
     svg {
         display: none;
