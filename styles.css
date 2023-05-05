@@ -2107,6 +2107,49 @@ margin-left: 50px;
     }
 }
 
+@media screen and (max-width:425px) {
+    .bx-menu {
+        margin-left: 180px;
+    }
+    .home-content .btnCon {
+        margin-left: 15px;
+    }
+
+    
+    .works {
+        padding: 50px 50px 0 50px;
+    }
+    .works-box {
+        width: 300px;
+        height: 300px;
+        margin-left: 10px;
+    }
+    .works-content {
+        margin-left: 0;
+
+        width: auto;
+    }
+
+    .services-box {
+        margin-left: 100px;
+    }
+
+    .line-Vertical1 {
+        margin-left: 180px;
+    }
+    .line-Vertical2 {
+        margin-left: 180px;
+    }
+    .line-Vertical3 {
+        margin-left: 180px;
+    }
+    .line-Vertical {
+        margin-left: 180px;
+    }
+
+
+}
+
 @media screen and (max-width: 414px) {
     .bx-menu {
         margin-left: 180px;

@@ -425,8 +425,10 @@ textarea:focus {
 
 @media screen and (max-width:1280px) {
     .contactme-content {
-        padding-left: -50px;
+        padding-left: 100px;
+        margin-right: 0;
     }
+
 }
 
 @media screen and (max-width: 1180px) {
@@ -436,6 +438,9 @@ textarea:focus {
     .contactme-content {
         padding-left: 100px;
         width:350px ;
+    }
+    .contactme-input {
+        padding-left: 150px;
     }
     .find-me {
         margin-left: 100px;
@@ -453,8 +458,9 @@ textarea:focus {
         height:170vh;
     }
     .contactme-content {
-        width: 300px;
+        width: 400px;
         margin-right: 0;
+        padding-left: 0 ;
     }
     .contact-me-page {
         padding: 0 70px;
@@ -464,21 +470,18 @@ textarea:focus {
     }
     .contact-form, input {
         width: 350px;
-        padding-left: 30px;
-        margin-left: 50px;
     }
     .contact-form, textarea {
         width: 350px;
-        margin-left: 50px;
     }
     .contactme-input button {
-        margin-left: 50px;
+        margin-left: 0;
     }
     .contactme-input .btnCon {
-        margin-left: 250px;
+        margin-left: 230px;
     }
     .find-me {
-        margin-left: 100px;
+        margin-left: -30px;
     }
     .contact-footer {
         margin-top: 600px;
@@ -522,7 +525,8 @@ textarea:focus {
         margin-top: 200px;
         margin-right: 0;
         margin-left: 100px;
-        width: 200px;
+        padding-left: 100px;
+        width: 300px
     }
     .contactme-content hr {
         margin-top: 50px;
@@ -537,7 +541,7 @@ textarea:focus {
 
     .contactme-input .btnCon {
         margin-top: 432px;
-        margin-left: 300px;
+        margin-left: 250px;
     }
     .mail-me {
         margin-left: -200px;
@@ -551,7 +555,7 @@ textarea:focus {
         opacity:100%;
     }
     .find-me {
-        margin-left: 50px;
+        margin-left: -20px;
     }
     .find-me h5 {
         font-size: var(--h5);
@@ -571,8 +575,14 @@ textarea:focus {
         padding-left: 0;
         margin-left: 0;
     }
+    .contactme-input {
+        padding-left: 100px;
+    }
     .contactme-input .btnCon {
         margin-left: 180px;
+    }
+    .find-me {
+        margin-left: -50px;
     }
 } 
     
@@ -648,7 +658,9 @@ textarea:focus {
     .contact-form {
         margin-left: 0;
     }
-
+.contactme-input {
+    padding-left: 50px;
+}
     .contact-form, input {
         height: 60px;
         width: 300px;
@@ -764,6 +776,7 @@ textarea:focus {
         margin-top: 200px;
         width: auto;
         height: auto;
+        margin-left: -100px;
     }
     .contact-form {
         padding-left: 60px;
@@ -777,7 +790,7 @@ textarea:focus {
         height: 80px;
     }
     .contactme-input button {
-        margin-left: 20px;
+        margin-left: -30px;
         margin-top: 20px;
     }
     .contactme-input .btnCon {
@@ -789,7 +802,7 @@ textarea:focus {
     }
     .find-me {
         margin-top: 50px;
-        margin-left: 200px;
+        margin-left: 30px;
         width: 300px;
     }
     .find-me h5 {
@@ -809,7 +822,11 @@ textarea:focus {
     }
 
 }
-
+@media screen and (max-width:425px) {
+    .bx-menu {
+        margin-left: 220px;
+    }
+}
 
 @media screen and (max-width: 414px) {
 
@@ -829,7 +846,7 @@ textarea:focus {
         margin-bottom: 30px;
     }
     .contactme-input {
-        padding-left: 0;
+        padding-left: 200px;
     }
     .contact-form {
         padding-left: 20px;
@@ -839,7 +856,7 @@ textarea:focus {
         margin-bottom: 20px;
     }
     .contact-form button {
-        margin-left: 25px;
+        margin-left: -15px;
     }
     .contactme-input .btnCon {
         margin-left: 200px;
