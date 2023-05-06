@@ -655,7 +655,7 @@ p {
 
 .about-svg {
     margin-top: -500px;
-    margin-left: -300px;
+    margin-left: -400px;
 
 }
 
@@ -1184,7 +1184,6 @@ margin-left: 50px;
 /*************************************Media Queries************************************/
 
 @media screen and (max-width: 1440px) {
-
     .home hr {
         margin-top: -150px;
     }
@@ -1230,7 +1229,7 @@ margin-left: 50px;
         margin-left: 650px;
     }
     .about-svg {
-        margin-left: -500px;
+        margin-left: -550px;
     }
     .about {
         height: 100vh;
@@ -1379,7 +1378,9 @@ margin-left: 50px;
     }
     .services-box-container {
         width: 250px;
+        padding: 0 5px;
     }
+   
     .services-box {
         width: 900px;
     }
@@ -1595,6 +1596,9 @@ margin-left: 50px;
         margin-left: 445px;
     }
 
+    .services-box-container {
+        width: 250px;
+    }
 
 
 }
