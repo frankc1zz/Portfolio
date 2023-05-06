@@ -646,9 +646,19 @@ p {
     margin-bottom: 4rem;
 
 }
+.about-image {
+    width: 530px;
+    height: 480px;
+    border: 1px solid var(--main-color);
+    border-radius: 50%;
+    opacity: 70%;
+}
 .about-image img {
     width: 500PX;
     height: 450PX;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
     /* box-shadow: 4px 7px 5px -1px var(--main-color); */
 
 }
@@ -1234,9 +1244,14 @@ margin-left: 50px;
     .about {
         height: 100vh;
     }
+    .about-image {
+        border-radius: 0%;
+        border: none;
+
+    }
     .about-image img {
-        margin-top: 100px;
-        margin-bottom: 50px;
+
+        margin-left: 5px;
     }
     .about-content h2{
         margin-top: 50px;
